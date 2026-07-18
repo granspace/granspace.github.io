@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
+{% assign lang = page.lang | default: 'en' %}
+{% assign nav = site.data.docs_nav %}
+{% if lang == 'pt-br' %}{% assign nav = site.data.docs_nav_pt %}{% endif %}
+{% assign ui = site.data.i18n[lang] %}
 <div class="wrap docs-layout">
   <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-cb" hidden />
-  <label for="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle navigation">☰ Contents</label>
+  <label for="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle navigation">☰ {{ ui.sidebar_toggle }}</label>
 
-  {% include docs-sidebar.html %}
+  {% include docs-sidebar.html nav=nav %}
 
   <main class="docs-content">
     {% if page.section %}<p class="doc-eyebrow">{{ page.section }}</p>{% endif %}

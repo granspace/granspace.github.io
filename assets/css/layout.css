@@ -56,6 +56,26 @@
 .theme-toggle:hover {
   border-color: var(--brand);
 }
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  font-size: 0.82rem;
+}
+.lang-switch a {
+  color: var(--muted);
+  font-weight: 600;
+  padding: 0.1rem 0.35rem;
+  border-radius: 6px;
+}
+.lang-switch a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+.lang-switch a.active {
+  color: var(--brand);
+  background: var(--surface-2);
+}
 
 .site-footer {
   margin-top: 3rem;

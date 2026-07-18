@@ -1,0 +1,86 @@
+# Sidebar das docs em português. Mesma estrutura do docs_nav.yml, títulos
+# traduzidos e URLs sob /pt-br/docs/.
+- section: Introdução
+  items:
+    - title: Introdução
+      url: /pt-br/docs/
+
+- section: Primeiros passos
+  items:
+    - title: Instalação
+      url: /pt-br/docs/getting-started/installation/
+    - title: Primeiro início
+      url: /pt-br/docs/getting-started/first-launch/
+    - title: O painel
+      url: /pt-br/docs/getting-started/dashboard/
+
+- section: Projetos
+  items:
+    - title: Organizando
+      url: /pt-br/docs/projects/organizing/
+    - title: Rodar e logs
+      url: /pt-br/docs/projects/running/
+    - title: Comandos
+      url: /pt-br/docs/projects/commands/
+    - title: Git
+      url: /pt-br/docs/projects/git/
+    - title: Ambiente e secrets
+      url: /pt-br/docs/projects/environment/
+    - title: devhub.json
+      url: /pt-br/docs/projects/devhub-json/
+    - title: Kanban e notas
+      url: /pt-br/docs/projects/kanban/
+    - title: Containers Docker
+      url: /pt-br/docs/projects/docker/
+
+- section: Extensões
+  items:
+    - title: Visão geral
+      url: /pt-br/docs/extensions/overview/
+    - title: Instalando
+      url: /pt-br/docs/extensions/installing/
+    - title: Criando uma extensão
+      url: /pt-br/docs/extensions/authoring/
+    - title: Registro oficial
+      url: /pt-br/docs/extensions/registry/
+
+- section: Segurança
+  items:
+    - title: Secrets criptografados
+      url: /pt-br/docs/security/secrets/
+    - title: Recuperação
+      url: /pt-br/docs/security/recovery/
+    - title: Local por design
+      url: /pt-br/docs/security/local-only/
+
+- section: MCP (agentes de IA)
+  items:
+    - title: Visão geral
+      url: /pt-br/docs/mcp/overview/
+    - title: Configurando um cliente
+      url: /pt-br/docs/mcp/configuration/
+    - title: Referência de ferramentas
+      url: /pt-br/docs/mcp/tools/
+
+- section: App desktop
+  items:
+    - title: Bandeja e menus
+      url: /pt-br/docs/desktop/tray-menus/
+    - title: Abertura rápida
+      url: /pt-br/docs/desktop/quick-open/
+    - title: Auto-update
+      url: /pt-br/docs/desktop/auto-update/
+
+- section: Portabilidade
+  items:
+    - title: Exportar e importar manifesto
+      url: /pt-br/docs/portability/manifest/
+
+- section: Referência
+  items:
+    - title: Atalhos de teclado
+      url: /pt-br/docs/reference/shortcuts/
+    - title: Solução de problemas
+      url: /pt-br/docs/reference/troubleshooting/
+    - title: FAQ
+      url: /pt-br/docs/reference/faq/

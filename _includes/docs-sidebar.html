@@ -2,8 +2,9 @@
   Docs sidebar, built from _data/docs_nav.yml. The current page is highlighted by
   comparing the relative URL of each item to page.url.
 {%- endcomment -%}
+{% assign groups = include.nav | default: site.data.docs_nav %}
 <nav class="docs-sidebar" aria-label="Docs">
-  {% for group in site.data.docs_nav %}
+  {% for group in groups %}
   <div class="docs-nav-group">
     <p class="docs-nav-section">{{ group.section }}</p>
     <ul>

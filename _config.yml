@@ -19,10 +19,15 @@ collections:
   docs:
     output: true
     permalink: /docs/:path/
+  docs_pt:
+    output: true
+    permalink: /pt-br/docs/:path/
 
 defaults:
   - scope: { path: "", type: docs }
-    values: { layout: doc }
+    values: { layout: doc, lang: en }
+  - scope: { path: "", type: docs_pt }
+    values: { layout: doc, lang: pt-br }
 
 # Markdown / syntax highlighting.
 markdown: kramdown
