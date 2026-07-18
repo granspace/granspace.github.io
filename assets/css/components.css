@@ -126,3 +126,13 @@ th {
   padding: 0.5rem 0.8rem;
   border-top: 1px solid var(--border);
 }
+/* Applied by shots.js when the image is missing: show only the caption in a
+   subtle placeholder box instead of a broken-image icon. */
+.shot.missing {
+  background: var(--surface-2);
+}
+.shot.missing figcaption {
+  border-top: none;
+  padding: 1.4rem 0.8rem;
+  text-align: center;
+}

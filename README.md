@@ -1,22 +1,55 @@
 # get-devhub
 
-Public distribution site for **devhub** (a local project manager). This repo:
+Public distribution **site + downloads + update feed** for **devhub** (a local
+project manager). The devhub source code is private and separate; only these
+public bits live here.
 
-- **Site** — the presentation/docs/download page, served via **GitHub Pages** at
-  <https://bryant-anjos.github.io/get-devhub>.
+- **Site** — presentation, documentation and download pages, served via **GitHub
+  Pages** at <https://bryant-anjos.github.io/get-devhub>.
 - **Downloads** — the installable builds (AppImage, .deb, Windows, macOS) live in
   this repo's [**Releases**](https://github.com/Bryant-Anjos/get-devhub/releases).
 - **Auto-update feed** — the desktop app's updater reads the same Releases
   (electron-updater metadata) to check for and download new versions.
 
-The devhub **source code is private and separate**; only the site, downloads and
-update feed are public here.
+## The site (Jekyll)
 
-## Structure
+Built with **Jekyll** (native to GitHub Pages — it builds on push, no CI). Files
+are split by responsibility to stay small and maintainable:
 
-- `index.html` — the static landing page (self-contained; no build step).
+```
+_config.yml            site config + shared data (repos, baseurl)
+_layouts/              default · page · doc  (chrome isn't duplicated per page)
+_includes/             head · header · footer · docs-sidebar
+_data/docs_nav.yml     the docs sidebar (single source of truth)
+_docs/                 one Markdown file per docs topic
+assets/css/            base · layout · components · home · docs
+assets/js/             theme toggle · screenshot fallback
+index.html             home
+download.html          /download/
+images/                screenshots (see IMAGES.md)
+```
+
+### Adding a docs page
+
+1. Create `_docs/<section>/<topic>.md` with front matter (`title`, `section`).
+2. Add its entry to `_data/docs_nav.yml` (this drives the sidebar and order).
+
+Internal links must use `relative_url` (the site has a `/get-devhub` base path):
+`[x]({% raw %}{{ '/docs/...' | relative_url }}{% endraw %})`.
+
+### Screenshots
+
+Referenced but not committed yet — see [`IMAGES.md`](IMAGES.md) for the list,
+names and what to capture. Drop PNGs into `images/`.
+
+### Local preview (optional)
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
 ## Releases
 
 Each release attaches the platform artifacts plus the update metadata
-(`latest*.yml`). The site's download buttons point at the latest release.
+(`latest*.yml`). The download pages point at the latest release.
