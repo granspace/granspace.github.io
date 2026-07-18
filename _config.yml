@@ -34,3 +34,7 @@ exclude:
   - IMAGES.md
   - Gemfile
   - Gemfile.lock
+  - vendor
+  - .bundle
+  - .sass-cache
+  - node_modules
