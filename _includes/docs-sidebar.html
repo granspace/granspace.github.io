@@ -1,0 +1,21 @@
+{%- comment -%}
+  Docs sidebar, built from _data/docs_nav.yml. The current page is highlighted by
+  comparing the relative URL of each item to page.url.
+{%- endcomment -%}
+<nav class="docs-sidebar" aria-label="Docs">
+  {% for group in site.data.docs_nav %}
+  <div class="docs-nav-group">
+    <p class="docs-nav-section">{{ group.section }}</p>
+    <ul>
+      {% for item in group.items %}
+      {% assign item_url = item.url | relative_url %}
+      <li>
+        <a href="{{ item_url }}" class="{% if page.url == item.url %}active{% endif %}">
+          {{ item.title }}{% if item.new %} <span class="badge-new">NEW</span>{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</nav>

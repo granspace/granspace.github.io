@@ -1,0 +1,82 @@
+/* Design tokens, reset and base typography. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --surface-2: #eef0f3;
+  --text: #1c2024;
+  --muted: #5b6472;
+  --border: #e3e6ea;
+  --brand: #6366f1;
+  --brand-text: #ffffff;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --radius: 12px;
+}
+
+/* Dark theme: follows the OS, and an explicit toggle (data-theme) wins. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1216;
+    --surface: #181c22;
+    --surface-2: #20262e;
+    --text: #e6e9ee;
+    --muted: #9aa4b2;
+    --border: #2a3038;
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  }
+}
+:root[data-theme='dark'] {
+  --bg: #0f1216;
+  --surface: #181c22;
+  --surface-2: #20262e;
+  --text: #e6e9ee;
+  --muted: #9aa4b2;
+  --border: #2a3038;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+:root[data-theme='light'] {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --surface-2: #eef0f3;
+  --text: #1c2024;
+  --muted: #5b6472;
+  --border: #e3e6ea;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+img {
+  max-width: 100%;
+}
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+.muted {
+  color: var(--muted);
+}

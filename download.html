@@ -1,0 +1,39 @@
+---
+layout: page
+title: Download
+permalink: /download/
+description: Download devhub for Linux, Windows or macOS — all builds live on the latest GitHub release.
+---
+<p class="tag muted">devhub is a desktop app (Electron) plus a local web dashboard and an MCP server. Pick your platform below — all builds come from the <a href="{{ site.repos.releases }}">latest release</a>.</p>
+
+<div class="callout warn">
+  <strong>Unsigned builds.</strong> On <strong>macOS</strong>, open with right-click → Open (or run <code>xattr -cr /Applications/devhub.app</code>). On <strong>Windows</strong>, allow it past SmartScreen (More info → Run anyway). Requires <strong>git</strong> on your PATH (and <strong>Docker</strong> for compose projects).
+</div>
+
+<div class="dl-grid" style="margin-top:1.5rem">
+  <a href="{{ site.repos.releases }}">
+    <div class="card"><div class="ico">🐧</div><h3>Linux — AppImage</h3><p>Portable and self-updating. <code>chmod +x</code> then run.</p></div>
+  </a>
+  <a href="{{ site.repos.releases }}">
+    <div class="card"><div class="ico">🐧</div><h3>Linux — .deb</h3><p>Debian / Ubuntu / Pop!_OS installer.</p></div>
+  </a>
+  <a href="{{ site.repos.releases }}">
+    <div class="card"><div class="ico">🪟</div><h3>Windows</h3><p>NSIS installer (.exe). Updates in place.</p></div>
+  </a>
+  <a href="{{ site.repos.releases }}">
+    <div class="card"><div class="ico">🍎</div><h3>macOS</h3><p>Disk image (.dmg).</p></div>
+  </a>
+</div>
+
+<h2>After installing</h2>
+<ol class="steps">
+  <li>Launch devhub and point it at the folder(s) where your projects live.</li>
+  <li>It scans and lists what it finds — mark favorites, set stage/purpose, add tags.</li>
+  <li>See the <a href="{{ '/docs/getting-started/first-launch/' | relative_url }}">first-launch guide</a> to go further.</li>
+</ol>
+
+<h2>Updates</h2>
+<p>The desktop app checks for updates on launch. <strong>AppImage</strong> and <strong>Windows</strong> update in place; <strong>.deb</strong> and unsigned <strong>macOS</strong> builds show a notification linking back here. You can also trigger a check from <em>Help → Check for updates</em>. See <a href="{{ '/docs/desktop/auto-update/' | relative_url }}">Auto-update</a>.</p>
+
+<h2>Extensions</h2>
+<p>Language/tool support is extensible. Browse the <a href="{{ site.repos.extensions }}">official extensions registry</a> or read <a href="{{ '/docs/extensions/overview/' | relative_url }}">Extensions</a>.</p>

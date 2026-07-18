@@ -1,0 +1,86 @@
+# Docs sidebar structure. Order and grouping live here (single source of truth);
+# each `url` points at a page under _docs/. Set `new: true` to flag a badge.
+- section: Introduction
+  items:
+    - title: Introduction
+      url: /docs/
+
+- section: Getting started
+  items:
+    - title: Installation
+      url: /docs/getting-started/installation/
+    - title: First launch
+      url: /docs/getting-started/first-launch/
+    - title: The dashboard
+      url: /docs/getting-started/dashboard/
+
+- section: Projects
+  items:
+    - title: Organizing
+      url: /docs/projects/organizing/
+    - title: Running & logs
+      url: /docs/projects/running/
+    - title: Commands
+      url: /docs/projects/commands/
+    - title: Git
+      url: /docs/projects/git/
+    - title: Environment & secrets
+      url: /docs/projects/environment/
+    - title: devhub.json
+      url: /docs/projects/devhub-json/
+    - title: Kanban & notes
+      url: /docs/projects/kanban/
+    - title: Docker containers
+      url: /docs/projects/docker/
+
+- section: Extensions
+  items:
+    - title: Overview
+      url: /docs/extensions/overview/
+    - title: Installing
+      url: /docs/extensions/installing/
+    - title: Writing an extension
+      url: /docs/extensions/authoring/
+    - title: Official registry
+      url: /docs/extensions/registry/
+
+- section: Security
+  items:
+    - title: Encrypted secrets
+      url: /docs/security/secrets/
+    - title: Recovery
+      url: /docs/security/recovery/
+    - title: Local-only by design
+      url: /docs/security/local-only/
+
+- section: MCP (AI agents)
+  items:
+    - title: Overview
+      url: /docs/mcp/overview/
+    - title: Configuring a client
+      url: /docs/mcp/configuration/
+    - title: Tools reference
+      url: /docs/mcp/tools/
+
+- section: Desktop app
+  items:
+    - title: Tray & menus
+      url: /docs/desktop/tray-menus/
+    - title: Quick-open
+      url: /docs/desktop/quick-open/
+    - title: Auto-update
+      url: /docs/desktop/auto-update/
+
+- section: Portability
+  items:
+    - title: Manifest export & import
+      url: /docs/portability/manifest/
+
+- section: Reference
+  items:
+    - title: Keyboard shortcuts
+      url: /docs/reference/shortcuts/
+    - title: Troubleshooting
+      url: /docs/reference/troubleshooting/
+    - title: FAQ
+      url: /docs/reference/faq/

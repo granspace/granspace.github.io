@@ -1,0 +1,128 @@
+/* Reusable pieces: cards, buttons, callouts, code, tables, badges. */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+  box-shadow: var(--shadow);
+}
+.card h3 {
+  margin: 0.2rem 0 0.4rem;
+  font-size: 1.05rem;
+}
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.card .ico {
+  font-size: 1.5rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--brand);
+  color: var(--brand-text);
+  padding: 0.75rem 1.3rem;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+.btn:hover {
+  text-decoration: none;
+  filter: brightness(1.05);
+}
+.btn.secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+
+/* Callout / note box. */
+.callout {
+  background: color-mix(in srgb, var(--brand) 10%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--brand) 30%, var(--border));
+  border-radius: 10px;
+  padding: 0.85rem 1.1rem;
+  color: var(--text);
+  font-size: 0.95rem;
+  margin: 1.2rem 0;
+}
+.callout.warn {
+  background: color-mix(in srgb, #e0a400 12%, var(--surface));
+  border-color: color-mix(in srgb, #e0a400 35%, var(--border));
+}
+
+.badge-new {
+  background: var(--brand);
+  color: var(--brand-text);
+  font-size: 0.62rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 0.05rem 0.3rem;
+  vertical-align: middle;
+}
+
+/* Inline code + fenced code blocks (Rouge highlighting). */
+code {
+  background: var(--surface-2);
+  border-radius: 6px;
+  padding: 0.12rem 0.4rem;
+  font-size: 0.88em;
+  font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
+}
+pre {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.85rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-size: 0.94rem;
+}
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.7rem;
+  text-align: left;
+}
+th {
+  background: var(--surface-2);
+}
+
+/* Placeholder frame for screenshots not added yet (see IMAGES.md). */
+.shot {
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1.2rem 0;
+}
+.shot img {
+  display: block;
+  width: 100%;
+}
+.shot figcaption {
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 0.5rem 0.8rem;
+  border-top: 1px solid var(--border);
+}
