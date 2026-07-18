@@ -1,8 +1,7 @@
 {%- comment -%} Top navigation, shared by every page (language-aware). {%- endcomment -%}
 {% assign lang = page.lang | default: 'en' %}
 {% assign t = site.data.i18n[lang] %}
-{% assign is_pt = lang == 'pt-br' %}
-{% if is_pt %}
+{% if lang == 'pt-br' %}
   {% assign home_url = '/pt-br/' %}
   {% assign docs_url = '/pt-br/docs/' %}
   {% assign download_url = '/pt-br/download/' %}
@@ -30,8 +29,8 @@
       <a href="{{ download_url | relative_url }}">{{ t.nav_download }}</a>
       <a href="{{ site.repos.extensions }}">{{ t.nav_extensions }}</a>
       <span class="lang-switch" aria-label="Language">
-        <a href="{{ en_url | relative_url }}" class="{% unless is_pt %}active{% endunless %}" hreflang="en">EN</a>
-        <a href="{{ pt_url | relative_url }}" class="{% if is_pt %}active{% endif %}" hreflang="pt-BR">PT</a>
+        <a href="{{ en_url | relative_url }}" class="{% unless lang == 'pt-br' %}active{% endunless %}" hreflang="en">EN</a>
+        <a href="{{ pt_url | relative_url }}" class="{% if lang == 'pt-br' %}active{% endif %}" hreflang="pt-BR">PT</a>
       </span>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">◑</button>
     </nav>
