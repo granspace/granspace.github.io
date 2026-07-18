@@ -8,9 +8,10 @@ devhub is built to stay on your machine.
 
 ## Loopback only
 
-The backend binds to **loopback** (`127.0.0.1`). The web dashboard, the desktop
-app and the [MCP server]({{ '/docs/mcp/overview/' | relative_url }}) all talk to
-that local server — nothing is exposed on your network.
+The backend binds to **loopback** (`127.0.0.1`). The desktop app's dashboard talks
+to that local server, and the planned self-hosted web version and
+[MCP server]({{ '/docs/mcp/overview/' | relative_url }}) will too — nothing is
+exposed on your network.
 
 ## Local storage
 

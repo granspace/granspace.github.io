@@ -70,6 +70,17 @@
   padding: 0.05rem 0.3rem;
   vertical-align: middle;
 }
+/* "Roadmap / not yet available" marker — outlined so it reads as pending. */
+.badge-soon {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  font-size: 0.62rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 0.03rem 0.3rem;
+  vertical-align: middle;
+}
 
 /* Inline code + fenced code blocks (Rouge highlighting). */
 code {

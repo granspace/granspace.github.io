@@ -4,6 +4,11 @@ section: MCP (AI agents)
 description: The kinds of tools devhub exposes over MCP.
 ---
 
+<div class="callout warn">
+  <strong>On the roadmap</strong> — the MCP server isn't in the distributed builds
+  yet. This is what agents will be able to do once it ships.
+</div>
+
 devhub exposes its features to agents as MCP **tools**, grouped by area. They
 mirror what you can do in the UI.
 

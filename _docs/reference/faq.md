@@ -12,8 +12,10 @@ trigger (git, update check, extension fetch, optional GitHub import).
 
 ## Do I need the desktop app, or can I use the web dashboard?
 
-Either. The dashboard runs in your browser against the local server; the desktop
-app adds tray, native menus, notifications, quick-open and auto-update.
+Today the **desktop app** is how devhub is distributed — the dashboard is built
+into it (tray, native menus, notifications, quick-open, auto-update). A
+self-hosted web version (run it and open the dashboard in a browser) is on the
+roadmap.
 
 ## Where are my projects stored?
 
@@ -23,7 +25,8 @@ SQLite database (`DB_PATH` to relocate it).
 
 ## Can AI agents use it?
 
-Yes — via the [MCP server]({{ '/docs/mcp/overview/' | relative_url }}).
+That's on the roadmap — via the [MCP server]({{ '/docs/mcp/overview/' | relative_url }}),
+which isn't in the distributed builds yet.
 
 ## How do I add support for another language or tool?
 

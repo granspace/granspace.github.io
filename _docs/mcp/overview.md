@@ -8,6 +8,13 @@ devhub includes an **MCP** (Model Context Protocol) server, so AI agents like
 Claude, Cursor and other MCP clients can work with your projects — using the same
 local logic as the dashboard and desktop app.
 
+<div class="callout warn">
+  <strong>On the roadmap.</strong> The MCP server isn't available in the
+  distributed desktop builds yet — this page describes what's coming and how it
+  will work. Follow the <a href="{{ site.repos.releases }}">releases</a> for when
+  it ships.
+</div>
+
 ## Same brain, different surface
 
 The MCP server connects to the **same local SQLite database** and reuses the same

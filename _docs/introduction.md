@@ -9,15 +9,23 @@ description: What devhub is — a local manager for the dev projects scattered a
 It discovers your projects, keeps them organized, runs them with live logs, and
 tracks their git/health — all from one place, running entirely on your computer.
 
-## Three ways to use it
+## How you use it
 
-devhub is one app with three surfaces, all backed by the same logic:
+devhub is one app with three surfaces, all backed by the same logic. **Today it's
+distributed as a desktop app**; the other two surfaces are on the roadmap.
 
-| Surface | What it is |
-| --- | --- |
-| **Web dashboard** | A browser UI served locally (loopback only). |
-| **Desktop app** | An Electron shell around the dashboard, with tray, native menus, notifications and auto-update. |
-| **MCP server** | A [Model Context Protocol]({{ '/docs/mcp/overview/' | relative_url }}) server so AI agents (Claude, Cursor, …) can manage your projects too. |
+| Surface | What it is | Availability |
+| --- | --- | --- |
+| **Desktop app** | An Electron app with the dashboard built in, plus tray, native menus, notifications and auto-update. | **Available now** |
+| **Self-hosted web** | The same dashboard served locally in a browser. | Roadmap |
+| **MCP server** | A [Model Context Protocol]({{ '/docs/mcp/overview/' | relative_url }}) server so AI agents (Claude, Cursor, …) can manage your projects. | Roadmap |
+
+<div class="callout">
+  Only the <strong>desktop app</strong> is distributed right now (see the
+  <a href="{{ '/download/' | relative_url }}">download page</a>). The self-hosted
+  web version and the MCP server are planned — the docs describe them so you know
+  what's coming.
+</div>
 
 <figure class="shot">
   <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="devhub dashboard overview" loading="lazy" />
