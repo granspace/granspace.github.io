@@ -1,13 +1,13 @@
-# get-devhub
+# site
 
-Public distribution **site + downloads + update feed** for **devhub** (a local
-project manager). The devhub source code is private and separate; only these
+Public distribution **site + downloads + update feed** for **granspace** (a local
+project manager). The granspace source code is private and separate; only these
 public bits live here.
 
 - **Site** — presentation, documentation and download pages, served via **GitHub
-  Pages** at <https://bryant-anjos.github.io/get-devhub>.
+  Pages** at <https://granspace.github.io/site>.
 - **Downloads** — the installable builds (AppImage, .deb, Windows, macOS) live in
-  this repo's [**Releases**](https://github.com/Bryant-Anjos/get-devhub/releases).
+  this repo's [**Releases**](https://github.com/granspace/site/releases).
 - **Auto-update feed** — the desktop app's updater reads the same Releases
   (electron-updater metadata) to check for and download new versions.
 
@@ -34,7 +34,7 @@ images/                screenshots (see IMAGES.md)
 1. Create `_docs/<section>/<topic>.md` with front matter (`title`, `section`).
 2. Add its entry to `_data/docs_nav.yml` (this drives the sidebar and order).
 
-Internal links must use `relative_url` (the site has a `/get-devhub` base path):
+Internal links must use `relative_url` (the site has a `/site` base path):
 `[x]({% raw %}{{ '/docs/...' | relative_url }}{% endraw %})`.
 
 ### Screenshots

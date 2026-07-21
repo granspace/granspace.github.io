@@ -14,8 +14,8 @@ Adicione uma `KEY` e um valor. Dois toggles controlam como ela é tratada:
 - **Secreta** — o valor é mascarado na interface e **criptografado em repouso**
   (veja [Secrets criptografados]({{ '/pt-br/docs/security/secrets/' | relative_url }})).
   Revele com o botão de olho (requer o cofre destrancado).
-- **No devhub.json** — se a variável é publicada no [`devhub.json`]({{ '/pt-br/docs/projects/devhub-json/' | relative_url }})
-  do projeto. Secrets **nunca** são escritos no `devhub.json`.
+- **No granspace.json** — se a variável é publicada no [`granspace.json`]({{ '/pt-br/docs/projects/granspace-json/' | relative_url }})
+  do projeto. Secrets **nunca** são escritos no `granspace.json`.
 
 Você também pode declarar uma **chave sem valor guardado** (um placeholder que
 documenta que o projeto precisa dela, sem commitar o valor).
@@ -34,7 +34,7 @@ DATABASE_URL=postgres://localhost:5432/app
 API_KEY=••••••••        # secreta — só escrita quando o cofre está destrancado
 ```
 
-Se o `.env` já existe, o devhub pergunta antes de sobrescrever.
+Se o `.env` já existe, o granspace pergunta antes de sobrescrever.
 
 <figure class="shot">
   <img src="{{ '/images/env-panel.png' | relative_url }}" alt="O painel de variáveis de ambiente" loading="lazy" />

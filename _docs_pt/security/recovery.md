@@ -6,7 +6,7 @@ description: Chave de recuperação, mudança de senha e reset do cofre.
 
 ## Chave de recuperação
 
-Quando você define uma senha-mestra pela primeira vez, o devhub mostra uma
+Quando você define uma senha-mestra pela primeira vez, o granspace mostra uma
 **chave de recuperação** — uma string única. Guarde-a em lugar seguro (um
 gerenciador de senhas). Ela é mostrada **uma única vez**.
 

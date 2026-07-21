@@ -1,7 +1,7 @@
 // Theme toggle: remembers the choice; otherwise the OS preference applies.
 (function () {
   var root = document.documentElement
-  var KEY = 'devhub-theme'
+  var KEY = 'granspace-theme'
   var saved = localStorage.getItem(KEY)
   if (saved) root.setAttribute('data-theme', saved)
 

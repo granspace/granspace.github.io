@@ -1,7 +1,7 @@
 ---
 title: Referência de ferramentas
 section: MCP (agentes de IA)
-description: Os tipos de ferramenta que o devhub expõe via MCP.
+description: Os tipos de ferramenta que o granspace expõe via MCP.
 ---
 
 <div class="callout warn">
@@ -9,7 +9,7 @@ description: Os tipos de ferramenta que o devhub expõe via MCP.
   distribuídos. Isto é o que os agentes vão poder fazer quando chegar.
 </div>
 
-O devhub expõe suas funcionalidades a agentes como **ferramentas** MCP, agrupadas
+O granspace expõe suas funcionalidades a agentes como **ferramentas** MCP, agrupadas
 por área. Elas espelham o que você faz na interface.
 
 | Área | O que agentes podem fazer |
@@ -25,7 +25,7 @@ por área. Elas espelham o que você faz na interface.
 <div class="callout">
   Os nomes e entradas exatos das ferramentas são declarados pelo servidor e
   expostos pelo seu cliente MCP — abra a lista de ferramentas do cliente para ver
-  o conjunto atual, que cresce conforme o devhub.
+  o conjunto atual, que cresce conforme o granspace.
 </div>
 
 ## Um fluxo típico

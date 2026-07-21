@@ -1,11 +1,11 @@
 ---
-title: devhub.json
+title: granspace.json
 section: Projects
-description: A per-project config file that devhub applies automatically.
+description: A per-project config file that granspace applies automatically.
 ---
 
-`devhub.json` lets a project describe how devhub should set it up. When you add a
-project that has one, devhub applies it automatically — great for shared repos
+`granspace.json` lets a project describe how granspace should set it up. When you add a
+project that has one, granspace applies it automatically — great for shared repos
 and onboarding.
 
 ## Example
@@ -29,14 +29,14 @@ and onboarding.
 
 ## Saving & applying
 
-From **Details → devhub.json**:
+From **Details → granspace.json**:
 
-- **Save devhub.json** — write the current install commands / env / auto-start to
+- **Save granspace.json** — write the current install commands / env / auto-start to
   the file in the repo.
-- **Apply devhub.json** — re-read the file and apply it to the project.
+- **Apply granspace.json** — re-read the file and apply it to the project.
 - **Install** / **Test** — run the install commands for real, or as a dry run to
   preview what would happen.
 
 <div class="callout">
-  Secrets you mark in the <a href="{{ '/docs/projects/environment/' | relative_url }}">environment panel</a> are excluded from <code>devhub.json</code>, so it's safe to commit.
+  Secrets you mark in the <a href="{{ '/docs/projects/environment/' | relative_url }}">environment panel</a> are excluded from <code>granspace.json</code>, so it's safe to commit.
 </div>

@@ -1,18 +1,18 @@
 ---
 title: Registro oficial
 section: Extensões
-description: O registro público que o devhub navega, e como contribuir.
+description: O registro público que o granspace navega, e como contribuir.
 ---
 
-O **registro oficial** é uma lista pública de extensões da comunidade que o devhub
+O **registro oficial** é uma lista pública de extensões da comunidade que o granspace
 pode navegar e instalar diretamente.
 
 ## Onde ele fica
 
 O registro é o repositório público
-[**devhub-extensions**]({{ site.repos.extensions }}). Ele contém:
+[**extensions**]({{ site.repos.extensions }}). Ele contém:
 
-- `registry.json` — o índice que o devhub lê;
+- `registry.json` — o índice que o granspace lê;
 - um manifesto por extensão;
 - `schema.json` — o JSON Schema contra o qual todo manifesto é validado;
 - um guia `CONTRIBUTING` e CI que valida as submissões.
@@ -28,5 +28,5 @@ trabalho.
 
 ## Instalando dele
 
-No devhub, abra **⋯ → Extensões → Ver extensões oficiais** para instalar qualquer
+No granspace, abra **⋯ → Extensões → Ver extensões oficiais** para instalar qualquer
 entrada do registro. Veja [Instalando]({{ '/pt-br/docs/extensions/installing/' | relative_url }}).

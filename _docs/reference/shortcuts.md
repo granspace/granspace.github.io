@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 section: Reference
-description: Keyboard shortcuts in devhub.
+description: Keyboard shortcuts in granspace.
 ---
 
 ## Global

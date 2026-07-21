@@ -1,11 +1,11 @@
 ---
-title: devhub.json
+title: granspace.json
 section: Projetos
-description: Um arquivo de config por projeto que o devhub aplica automaticamente.
+description: Um arquivo de config por projeto que o granspace aplica automaticamente.
 ---
 
-O `devhub.json` deixa um projeto descrever como o devhub deve configurá-lo. Quando
-você adiciona um projeto que tem um, o devhub o aplica automaticamente — ótimo
+O `granspace.json` deixa um projeto descrever como o granspace deve configurá-lo. Quando
+você adiciona um projeto que tem um, o granspace o aplica automaticamente — ótimo
 para repositórios compartilhados e onboarding.
 
 ## Exemplo
@@ -29,14 +29,14 @@ para repositórios compartilhados e onboarding.
 
 ## Salvar e aplicar
 
-Em **Detalhes → devhub.json**:
+Em **Detalhes → granspace.json**:
 
-- **Salvar devhub.json** — escreve os comandos de instalação / env / auto-start
+- **Salvar granspace.json** — escreve os comandos de instalação / env / auto-start
   atuais no arquivo do repositório.
-- **Aplicar devhub.json** — relê o arquivo e o aplica ao projeto.
+- **Aplicar granspace.json** — relê o arquivo e o aplica ao projeto.
 - **Instalar** / **Testar** — roda os comandos de instalação de verdade, ou como
   ensaio (dry run) para prever o que aconteceria.
 
 <div class="callout">
-  Secrets que você marca no <a href="{{ '/pt-br/docs/projects/environment/' | relative_url }}">painel de ambiente</a> são excluídos do <code>devhub.json</code>, então é seguro commitá-lo.
+  Secrets que você marca no <a href="{{ '/pt-br/docs/projects/environment/' | relative_url }}">painel de ambiente</a> são excluídos do <code>granspace.json</code>, então é seguro commitá-lo.
 </div>

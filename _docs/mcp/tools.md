@@ -1,7 +1,7 @@
 ---
 title: Tools reference
 section: MCP (AI agents)
-description: The kinds of tools devhub exposes over MCP.
+description: The kinds of tools granspace exposes over MCP.
 ---
 
 <div class="callout warn">
@@ -9,7 +9,7 @@ description: The kinds of tools devhub exposes over MCP.
   yet. This is what agents will be able to do once it ships.
 </div>
 
-devhub exposes its features to agents as MCP **tools**, grouped by area. They
+granspace exposes its features to agents as MCP **tools**, grouped by area. They
 mirror what you can do in the UI.
 
 | Area | What agents can do |
@@ -25,7 +25,7 @@ mirror what you can do in the UI.
 <div class="callout">
   The exact tool names and inputs are declared by the server and surfaced by your
   MCP client — open the client's tool list to see the current set, which grows as
-  devhub does.
+  granspace does.
 </div>
 
 ## A typical flow

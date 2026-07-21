@@ -19,10 +19,10 @@ Os favoritos vêm primeiro, então favorite os projetos que você mais abre (vej
 
 ## Deep links
 
-O devhub registra um esquema de URL `devhub://`:
+O granspace registra um esquema de URL `granspace://`:
 
-- `devhub://project/<id>` abre um projeto específico.
-- `devhub://discover`, `devhub://refresh-git`, … disparam ações do painel.
+- `granspace://project/<id>` abre um projeto específico.
+- `granspace://discover`, `granspace://refresh-git`, … disparam ações do painel.
 
 A jump list e as notificações usam isso por baixo dos panos, e outras ferramentas
 também podem.

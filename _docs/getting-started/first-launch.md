@@ -1,10 +1,10 @@
 ---
 title: First launch
 section: Getting started
-description: Point devhub at your projects and let it discover them.
+description: Point granspace at your projects and let it discover them.
 ---
 
-On first launch devhub asks where your projects live. Everything starts from
+On first launch granspace asks where your projects live. Everything starts from
 there.
 
 ## 1. Add your project roots
@@ -17,7 +17,7 @@ projects are kept, for example:
 /home/you/work
 ```
 
-devhub scans these roots (one level deep) for anything that looks like a project
+granspace scans these roots (one level deep) for anything that looks like a project
 — a git repo, a `package.json`, a `composer.json`, a compose file, and so on
 (detection is driven by [extensions]({{ '/docs/extensions/overview/' | relative_url }})).
 
@@ -28,7 +28,7 @@ devhub scans these roots (one level deep) for anything that looks like a project
 
 ## 2. Discover projects
 
-Use **Add → Discover projects** (or the tray/menu shortcut). devhub lists what it
+Use **Add → Discover projects** (or the tray/menu shortcut). granspace lists what it
 found under your roots but isn't managing yet — tick the ones to add.
 
 You can also:
@@ -47,6 +47,6 @@ Once tracked, a project shows as a card. Set its **stage** and **purpose**, add
 
 ## Optional: self-configuring projects
 
-Drop a [`devhub.json`]({{ '/docs/projects/devhub-json/' | relative_url }}) in a
-project and devhub applies it when the project is added — install commands, env
+Drop a [`granspace.json`]({{ '/docs/projects/granspace-json/' | relative_url }}) in a
+project and granspace applies it when the project is added — install commands, env
 keys, auto-start and more.

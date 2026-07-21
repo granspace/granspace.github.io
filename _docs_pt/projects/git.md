@@ -4,7 +4,7 @@ section: Projetos
 description: Veja o estado de sincronização do git de relance e rode ações comuns pela interface.
 ---
 
-O devhub lê o status do git de cada projeto e deixa você rodar ações comuns sem
+O granspace lê o status do git de cada projeto e deixa você rodar ações comuns sem
 sair do app.
 
 ## Estado de sincronização

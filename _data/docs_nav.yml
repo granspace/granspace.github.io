@@ -26,8 +26,8 @@
       url: /docs/projects/git/
     - title: Environment & secrets
       url: /docs/projects/environment/
-    - title: devhub.json
-      url: /docs/projects/devhub-json/
+    - title: granspace.json
+      url: /docs/projects/granspace-json/
     - title: Kanban & notes
       url: /docs/projects/kanban/
     - title: Docker containers

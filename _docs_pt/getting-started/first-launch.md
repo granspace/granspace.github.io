@@ -1,10 +1,10 @@
 ---
 title: Primeiro início
 section: Primeiros passos
-description: Aponte o devhub para seus projetos e deixe ele descobri-los.
+description: Aponte o granspace para seus projetos e deixe ele descobri-los.
 ---
 
-No primeiro início o devhub pergunta onde seus projetos ficam. Tudo começa daí.
+No primeiro início o granspace pergunta onde seus projetos ficam. Tudo começa daí.
 
 ## 1. Adicione as raízes de projeto
 
@@ -16,7 +16,7 @@ projetos são guardados, por exemplo:
 /home/voce/trabalho
 ```
 
-O devhub escaneia essas raízes (um nível de profundidade) por qualquer coisa que
+O granspace escaneia essas raízes (um nível de profundidade) por qualquer coisa que
 pareça um projeto — um repositório git, um `package.json`, um `composer.json`, um
 arquivo compose e assim por diante (a detecção é dirigida por
 [extensões]({{ '/pt-br/docs/extensions/overview/' | relative_url }})).
@@ -28,7 +28,7 @@ arquivo compose e assim por diante (a detecção é dirigida por
 
 ## 2. Descubra projetos
 
-Use **Adicionar → Descobrir projetos** (ou o atalho na bandeja/menu). O devhub
+Use **Adicionar → Descobrir projetos** (ou o atalho na bandeja/menu). O granspace
 lista o que encontrou nas suas raízes mas ainda não gerencia — marque os que quer
 adicionar.
 
@@ -48,6 +48,6 @@ o resto. Veja [Organizando]({{ '/pt-br/docs/projects/organizing/' | relative_url
 
 ## Opcional: projetos auto-configuráveis
 
-Coloque um [`devhub.json`]({{ '/pt-br/docs/projects/devhub-json/' | relative_url }})
-num projeto e o devhub o aplica quando o projeto é adicionado — comandos de
+Coloque um [`granspace.json`]({{ '/pt-br/docs/projects/granspace-json/' | relative_url }})
+num projeto e o granspace o aplica quando o projeto é adicionado — comandos de
 instalação, chaves de env, auto-start e mais.

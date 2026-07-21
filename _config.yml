@@ -1,18 +1,18 @@
-title: devhub
+title: granspace
 tagline: Manage the dev projects scattered across your machine
 description: >-
-  devhub is a local manager for the dev projects on your machine: discover,
+  granspace is a local manager for the dev projects on your machine: discover,
   organize, run and track them — web dashboard, desktop app and MCP.
 
 # GitHub Pages project site. Every internal link must use `relative_url` so it
 # respects this base path.
-url: https://bryant-anjos.github.io
-baseurl: /get-devhub
+url: https://granspace.github.io
+baseurl: /site
 
 # External links reused across the site (kept in one place).
 repos:
-  extensions: https://github.com/Bryant-Anjos/devhub-extensions
-  releases: https://github.com/Bryant-Anjos/get-devhub/releases/latest
+  extensions: https://github.com/granspace/extensions
+  releases: https://github.com/granspace/site/releases/latest
 
 # Docs are a collection: one Markdown file per topic, output as its own page.
 collections:

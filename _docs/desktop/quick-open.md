@@ -19,9 +19,9 @@ Favorites come first, so star the projects you jump to most (see
 
 ## Deep links
 
-devhub registers a `devhub://` URL scheme:
+granspace registers a `granspace://` URL scheme:
 
-- `devhub://project/<id>` opens a specific project.
-- `devhub://discover`, `devhub://refresh-git`, … trigger dashboard actions.
+- `granspace://project/<id>` opens a specific project.
+- `granspace://discover`, `granspace://refresh-git`, … trigger dashboard actions.
 
 The jump list and notifications use these under the hood, and other tools can too.

@@ -42,7 +42,7 @@ Dois provedores:
 
 <div class="callout">
   O JSON Schema autoritativo e um guia de contribuição ficam no repositório
-  <a href="{{ site.repos.extensions }}">devhub-extensions</a> — valide seu
+  <a href="{{ site.repos.extensions }}">extensions</a> — valide seu
   manifesto contra o <code>schema.json</code> antes de publicar.
 </div>
 

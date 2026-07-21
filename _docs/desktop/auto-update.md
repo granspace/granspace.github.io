@@ -1,7 +1,7 @@
 ---
 title: Auto-update
 section: Desktop app
-description: How devhub updates itself across platforms.
+description: How granspace updates itself across platforms.
 ---
 
 The desktop app checks for a newer version on launch, against the public releases
@@ -24,5 +24,5 @@ up to date or offers the download. It's also in the tray menu.
 ## Where updates come from
 
 Builds and update metadata are published to the public
-[get-devhub releases]({{ site.repos.releases }}). See the
+[site releases]({{ site.repos.releases }}). See the
 [Download page]({{ '/download/' | relative_url }}).

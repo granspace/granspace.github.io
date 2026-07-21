@@ -1,16 +1,16 @@
 ---
 title: Installation
 section: Getting started
-description: Install devhub on Linux, Windows or macOS.
+description: Install granspace on Linux, Windows or macOS.
 ---
 
-devhub ships as a desktop app. Grab your platform from the
+granspace ships as a desktop app. Grab your platform from the
 [Download page]({{ '/download/' | relative_url }}) (all builds live on the latest
 GitHub release).
 
 ## Requirements
 
-- **git** on your `PATH` (devhub reads and runs git for your projects).
+- **git** on your `PATH` (granspace reads and runs git for your projects).
 - **Docker** — optional, only for Docker Compose projects and the container panel.
 
 ## Linux
@@ -18,15 +18,15 @@ GitHub release).
 **AppImage** (portable, self-updating):
 
 ```bash
-chmod +x devhub-*.AppImage
-./devhub-*.AppImage
+chmod +x granspace-*.AppImage
+./granspace-*.AppImage
 ```
 
 **.deb** (Debian / Ubuntu / Pop!_OS):
 
 ```bash
-sudo dpkg -i devhub_*_amd64.deb
-# then launch "devhub" from your app menu
+sudo dpkg -i granspace_*_amd64.deb
+# then launch "granspace" from your app menu
 ```
 
 ## Windows
@@ -36,11 +36,11 @@ publisher, choose **More info → Run anyway** (builds are unsigned).
 
 ## macOS
 
-Open the `.dmg` and drag devhub to Applications. Because builds are unsigned,
+Open the `.dmg` and drag granspace to Applications. Because builds are unsigned,
 the first launch needs a right-click → **Open**, or clear the quarantine flag:
 
 ```bash
-xattr -cr /Applications/devhub.app
+xattr -cr /Applications/granspace.app
 ```
 
 ## Updates

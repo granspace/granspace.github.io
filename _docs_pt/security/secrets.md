@@ -1,7 +1,7 @@
 ---
 title: Secrets criptografados
 section: Segurança
-description: Como o devhub criptografa variáveis de ambiente secretas atrás de uma senha-mestra.
+description: Como o granspace criptografa variáveis de ambiente secretas atrás de uma senha-mestra.
 ---
 
 Variáveis de ambiente que você marca como **secretas** são criptografadas em
@@ -10,13 +10,13 @@ repouso, para que quem navegue no banco de dados local não consiga lê-las.
 ## Senha-mestra
 
 Defina uma **senha-mestra** em **Configurações → Segurança**. A partir dela, o
-devhub consegue criptografar e descriptografar seus secrets. A senha em si
+granspace consegue criptografar e descriptografar seus secrets. A senha em si
 **nunca é guardada** — você destranca o cofre uma vez por sessão para ver secrets
 ou rodar projetos que os usam.
 
 ## Como funciona
 
-O devhub usa **criptografia de envelope**:
+O granspace usa **criptografia de envelope**:
 
 - Uma **chave de dados** aleatória (AES-256-GCM) criptografa os valores secretos.
   Ela vive apenas em memória enquanto destrancada.
@@ -31,9 +31,9 @@ recriptografar cada valor.
 
 ## Destrancando
 
-Quando o cofre está configurado, o devhub pede a senha para **destrancar** pela
+Quando o cofre está configurado, o granspace pede a senha para **destrancar** pela
 sessão. Secrets trancados ficam mascarados e são omitidos do sync de `.env` e do
-`devhub.json` até você destrancar.
+`granspace.json` até você destrancar.
 
 <div class="callout warn">
   Se você esquecer tanto a senha quanto a chave de recuperação, os secrets não

@@ -10,7 +10,7 @@ Os builds não são assinados. Clique-direito → **Abrir**, ou limpe a flag de
 quarentena:
 
 ```bash
-xattr -cr /Applications/devhub.app
+xattr -cr /Applications/granspace.app
 ```
 
 ## O SmartScreen bloqueia (Windows)
@@ -27,7 +27,7 @@ stacks e rode **Descobrir** de novo.
 
 ## Ações de git falham
 
-O devhub chama o **git** do sistema — garanta que ele está instalado e no `PATH`,
+O granspace chama o **git** do sistema — garanta que ele está instalado e no `PATH`,
 e que o repositório tem o remote/credenciais que precisa.
 
 ## O painel do Docker não aparece
@@ -42,4 +42,4 @@ Valores secretos exigem o cofre **destrancado** com sua senha-mestra. Veja
 
 ## Movendo o banco de dados
 
-Aponte o devhub para outro arquivo de banco com a variável de ambiente `DB_PATH`.
+Aponte o granspace para outro arquivo de banco com a variável de ambiente `DB_PATH`.

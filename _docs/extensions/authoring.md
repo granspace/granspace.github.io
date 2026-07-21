@@ -42,7 +42,7 @@ Two providers:
 
 <div class="callout">
   The authoritative JSON Schema and a contributing guide live in the
-  <a href="{{ site.repos.extensions }}">devhub-extensions</a> repo — validate your
+  <a href="{{ site.repos.extensions }}">extensions</a> repo — validate your
   manifest against <code>schema.json</code> before publishing.
 </div>
 

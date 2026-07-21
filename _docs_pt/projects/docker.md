@@ -1,10 +1,10 @@
 ---
 title: Containers Docker
 section: Projetos
-description: Gerencie os containers de um projeto compose pelo devhub.
+description: Gerencie os containers de um projeto compose pelo granspace.
 ---
 
-Para projetos **Docker Compose**, o devhub adiciona um painel **Containers** aos
+Para projetos **Docker Compose**, o granspace adiciona um painel **Containers** aos
 detalhes do projeto.
 
 <div class="callout">

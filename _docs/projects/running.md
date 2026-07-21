@@ -4,7 +4,7 @@ section: Projects
 description: Start and stop projects, watch live logs, and detect port conflicts and external runs.
 ---
 
-Runnable projects can be started and stopped from devhub, with live logs.
+Runnable projects can be started and stopped from granspace, with live logs.
 
 ## Start command
 
@@ -13,7 +13,7 @@ A project's **start command** (e.g. `npm run dev`) is set under
 to organize (no start button).
 
 Use **Start** on the card or in Details. If the start fails because a port is in
-use, devhub offers to force-start.
+use, granspace offers to force-start.
 
 ## Live logs
 
@@ -27,15 +27,15 @@ While a project runs, its output is captured with ANSI colors preserved. Open
 
 ## Port conflicts
 
-devhub knows which host ports your projects use and flags **conflicts** (two
+granspace knows which host ports your projects use and flags **conflicts** (two
 projects wanting the same port) with a dashboard banner and, on desktop, a
 notification.
 
 ## External runs
 
-If you started a project in a terminal (outside devhub), devhub still shows it as
+If you started a project in a terminal (outside granspace), granspace still shows it as
 **running** — detected by probing its web-URL port or compose host ports. These
-show a **hollow** status dot to distinguish them (devhub can't stop a process it
+show a **hollow** status dot to distinguish them (granspace can't stop a process it
 didn't start).
 
 ## Web URL

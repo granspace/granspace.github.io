@@ -9,7 +9,7 @@ description: Common issues and how to resolve them.
 Builds are unsigned. Right-click → **Open**, or clear the quarantine flag:
 
 ```bash
-xattr -cr /Applications/devhub.app
+xattr -cr /Applications/granspace.app
 ```
 
 ## SmartScreen blocks it (Windows)
@@ -26,7 +26,7 @@ then re-run **Discover**.
 
 ## Git actions fail
 
-devhub calls your system **git** — make sure it's installed and on your `PATH`,
+granspace calls your system **git** — make sure it's installed and on your `PATH`,
 and that the repo has the remote/credentials it needs.
 
 ## The Docker panel doesn't appear
@@ -41,4 +41,4 @@ Secret values require the vault to be **unlocked** with your master password. Se
 
 ## Moving the database
 
-Point devhub at a different database file with the `DB_PATH` environment variable.
+Point granspace at a different database file with the `DB_PATH` environment variable.

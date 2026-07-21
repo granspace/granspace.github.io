@@ -20,7 +20,7 @@ Deno, Maven, Gradle, Dart, Make and more — and install with one click.
 
 ## From a URL
 
-Paste the URL of an extension's JSON manifest and **Install**. devhub fetches it
+Paste the URL of an extension's JSON manifest and **Install**. granspace fetches it
 (http/https only), validates it against the schema, and stores it.
 
 ## Removing

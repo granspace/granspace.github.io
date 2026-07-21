@@ -1,7 +1,7 @@
 ---
 title: Atalhos de teclado
 section: Referência
-description: Atalhos de teclado no devhub.
+description: Atalhos de teclado no granspace.
 ---
 
 ## Globais

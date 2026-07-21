@@ -1,7 +1,7 @@
 ---
 title: The dashboard
 section: Getting started
-description: A tour of the devhub dashboard — top bar, filters, project cards and bulk actions.
+description: A tour of the granspace dashboard — top bar, filters, project cards and bulk actions.
 ---
 
 The dashboard is the home screen: every tracked project as a card, with search,
@@ -32,8 +32,8 @@ Each card shows:
 
 - a **favorite** star and a multi-select checkbox;
 - the **type** icon (tech stack) and name;
-- a **status dot** — solid when devhub started it, a **hollow ring** when it's
-  running but was started outside devhub;
+- a **status dot** — solid when granspace started it, a **hollow ring** when it's
+  running but was started outside granspace;
 - **badges** for stage, purpose and git sync state, plus **tag** chips;
 - **quick links** — board, localhost, repo, and (desktop) folder/terminal/editor;
 - **Start/Stop** and **Details**.

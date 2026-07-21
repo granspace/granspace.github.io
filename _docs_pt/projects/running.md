@@ -4,7 +4,7 @@ section: Projetos
 description: Inicie e pare projetos, acompanhe logs ao vivo e detecte conflitos de porta e execuções externas.
 ---
 
-Projetos executáveis podem ser iniciados e parados pelo devhub, com logs ao vivo.
+Projetos executáveis podem ser iniciados e parados pelo granspace, com logs ao vivo.
 
 ## Comando de start
 
@@ -13,7 +13,7 @@ O **comando de start** de um projeto (ex.: `npm run dev`) é definido em
 quer organizar (sem botão de iniciar).
 
 Use **Iniciar** no card ou nos Detalhes. Se o start falhar porque uma porta está
-em uso, o devhub oferece forçar o início.
+em uso, o granspace oferece forçar o início.
 
 ## Logs ao vivo
 
@@ -27,15 +27,15 @@ Enquanto um projeto roda, a saída é capturada com cores ANSI preservadas. Abra
 
 ## Conflitos de porta
 
-O devhub sabe quais portas do host seus projetos usam e sinaliza **conflitos**
+O granspace sabe quais portas do host seus projetos usam e sinaliza **conflitos**
 (dois projetos querendo a mesma porta) com um banner no painel e, no desktop, uma
 notificação.
 
 ## Execuções externas
 
-Se você iniciou um projeto num terminal (fora do devhub), o devhub ainda o mostra
+Se você iniciou um projeto num terminal (fora do granspace), o granspace ainda o mostra
 como **rodando** — detectado sondando a porta da URL web ou as portas do host do
-compose. Estes mostram um ponto de status **vazado** para distinguir (o devhub não
+compose. Estes mostram um ponto de status **vazado** para distinguir (o granspace não
 pode parar um processo que não iniciou).
 
 ## URL web

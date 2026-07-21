@@ -4,7 +4,7 @@ section: Projetos
 description: Descubra e rode os comandos nomeados de um projeto com logs em streaming ao vivo.
 ---
 
-Além do único comando de start, o devhub expõe os **comandos nomeados** de um
+Além do único comando de start, o granspace expõe os **comandos nomeados** de um
 projeto e deixa você rodá-los individualmente.
 
 ## De onde vêm os comandos

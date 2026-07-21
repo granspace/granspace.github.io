@@ -1,18 +1,18 @@
 ---
 title: Official registry
 section: Extensions
-description: The public registry devhub browses, and how to contribute.
+description: The public registry granspace browses, and how to contribute.
 ---
 
-The **official registry** is a public list of community extensions that devhub
+The **official registry** is a public list of community extensions that granspace
 can browse and install from directly.
 
 ## Where it lives
 
 The registry is the public
-[**devhub-extensions**]({{ site.repos.extensions }}) repository. It contains:
+[**extensions**]({{ site.repos.extensions }}) repository. It contains:
 
-- `registry.json` — the index devhub reads;
+- `registry.json` — the index granspace reads;
 - one manifest per extension;
 - `schema.json` — the JSON Schema every manifest is validated against;
 - a `CONTRIBUTING` guide and CI that validates submissions.
@@ -27,5 +27,5 @@ CI checks the schema on every PR, so a valid manifest is most of the work.
 
 ## Installing from it
 
-In devhub, open **⋯ → Extensions → Browse official extensions** to install any
+In granspace, open **⋯ → Extensions → Browse official extensions** to install any
 registry entry. See [Installing]({{ '/docs/extensions/installing/' | relative_url }}).

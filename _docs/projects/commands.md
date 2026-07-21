@@ -4,7 +4,7 @@ section: Projects
 description: Discover and run a project's named commands with live streaming logs.
 ---
 
-Beyond the single start command, devhub surfaces a project's **named commands**
+Beyond the single start command, granspace surfaces a project's **named commands**
 and lets you run them individually.
 
 ## Where commands come from

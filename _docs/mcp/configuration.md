@@ -1,7 +1,7 @@
 ---
 title: Configuring a client
 section: MCP (AI agents)
-description: How an MCP client will connect to devhub's MCP server.
+description: How an MCP client will connect to granspace's MCP server.
 ---
 
 <div class="callout warn">
@@ -23,8 +23,8 @@ the configuration will look roughly like:
 ```json
 {
   "mcpServers": {
-    "devhub": {
-      "command": "<devhub MCP launcher shipped with the app>"
+    "granspace": {
+      "command": "<granspace MCP launcher shipped with the app>"
     }
   }
 }

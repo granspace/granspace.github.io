@@ -1,10 +1,10 @@
 ---
 title: Visão geral
 section: MCP (agentes de IA)
-description: O devhub fala Model Context Protocol para que agentes de IA gerenciem seus projetos.
+description: O granspace fala Model Context Protocol para que agentes de IA gerenciem seus projetos.
 ---
 
-O devhub inclui um servidor **MCP** (Model Context Protocol), para que agentes de
+O granspace inclui um servidor **MCP** (Model Context Protocol), para que agentes de
 IA como Claude, Cursor e outros clientes MCP trabalhem com seus projetos — usando
 a mesma lógica local do painel e do app desktop.
 
@@ -30,7 +30,7 @@ checar git, iniciar/parar, e mais.
 
 ## Local e privado
 
-Como tudo no devhub, o servidor MCP é
+Como tudo no granspace, o servidor MCP é
 [local-only]({{ '/pt-br/docs/security/local-only/' | relative_url }}) — roda na sua
 máquina e conversa com seu banco de dados local.
 
