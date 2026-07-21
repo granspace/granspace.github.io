@@ -10,6 +10,8 @@ en:
   footer_extensions: Extensions registry
   sidebar_toggle: Contents
   lang_name: English
+  tagline: "Manage the dev projects scattered across your machine"
+  description: "Granspace is a local manager for the dev projects on your machine: discover, organize, run and track them — web dashboard, desktop app and MCP."
 pt-br:
   nav_docs: Docs
   nav_download: Download
@@ -20,3 +22,5 @@ pt-br:
   footer_extensions: Registro de extensões
   sidebar_toggle: Conteúdo
   lang_name: Português
+  tagline: "Gerencie os projetos de desenvolvimento espalhados pela sua máquina"
+  description: "Granspace é um gerenciador local dos projetos de desenvolvimento na sua máquina: descubra, organize, rode e acompanhe — painel web, app desktop e MCP."
