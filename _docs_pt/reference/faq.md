@@ -1,10 +1,10 @@
 ---
 title: FAQ
 section: Referência
-description: Perguntas frequentes sobre o granspace.
+description: Perguntas frequentes sobre o Granspace.
 ---
 
-## O granspace envia meu código ou dados para algum lugar?
+## O Granspace envia meu código ou dados para algum lugar?
 
 Não. Ele é [local-only]({{ '/pt-br/docs/security/local-only/' | relative_url }}) —
 escuta em loopback, armazenamento SQLite local, sem telemetria. As únicas chamadas
@@ -13,13 +13,13 @@ extensão, import opcional do GitHub).
 
 ## Preciso do app desktop, ou posso usar o painel web?
 
-Hoje o **app desktop** é como o granspace é distribuído — o painel é embutido nele
+Hoje o **app desktop** é como o Granspace é distribuído — o painel é embutido nele
 (bandeja, menus nativos, notificações, abertura rápida, auto-update). Uma versão
 web self-hosted (rodar e abrir o painel no navegador) está no roadmap.
 
 ## Onde meus projetos ficam guardados?
 
-O granspace não move seus projetos — ele aponta para pastas que você já tem. Os dados
+O Granspace não move seus projetos — ele aponta para pastas que você já tem. Os dados
 dele (metadados, notas, quadros, configurações, secrets criptografados) ficam num
 banco SQLite local (`DB_PATH` para realocá-lo).
 

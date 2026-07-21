@@ -1,7 +1,7 @@
 ---
 title: Configuring a client
 section: MCP (AI agents)
-description: How an MCP client will connect to granspace's MCP server.
+description: How an MCP client will connect to Granspace's MCP server.
 ---
 
 <div class="callout warn">
@@ -24,7 +24,7 @@ the configuration will look roughly like:
 {
   "mcpServers": {
     "granspace": {
-      "command": "<granspace MCP launcher shipped with the app>"
+      "command": "<Granspace MCP launcher shipped with the app>"
     }
   }
 }

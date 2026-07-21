@@ -1,10 +1,10 @@
 ---
 title: Overview
 section: MCP (AI agents)
-description: granspace speaks the Model Context Protocol so AI agents can manage your projects.
+description: Granspace speaks the Model Context Protocol so AI agents can manage your projects.
 ---
 
-granspace includes an **MCP** (Model Context Protocol) server, so AI agents like
+Granspace includes an **MCP** (Model Context Protocol) server, so AI agents like
 Claude, Cursor and other MCP clients can work with your projects — using the same
 local logic as the dashboard and desktop app.
 
@@ -31,7 +31,7 @@ start/stop, and more.
 
 ## Local & private
 
-Like everything else in granspace, the MCP server is
+Like everything else in Granspace, the MCP server is
 [local-only]({{ '/docs/security/local-only/' | relative_url }}) — it runs on your
 machine and talks to your local database.
 

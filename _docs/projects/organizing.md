@@ -4,7 +4,7 @@ section: Projects
 description: Stage, purpose, tags, favorites and notes to keep projects tidy.
 ---
 
-granspace gives each project a bit of metadata so a long list stays scannable.
+Granspace gives each project a bit of metadata so a long list stays scannable.
 
 ## Stage & purpose
 
@@ -35,6 +35,6 @@ Notes are searchable from the global search.
 
 ## Missing projects
 
-If a tracked folder disappears from disk, granspace marks the project **missing** (a
+If a tracked folder disappears from disk, Granspace marks the project **missing** (a
 badge) instead of dropping it — so you don't lose its metadata, notes or board.
 Remove it explicitly when you're done, optionally wiping its data.

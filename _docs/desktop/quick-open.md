@@ -19,7 +19,7 @@ Favorites come first, so star the projects you jump to most (see
 
 ## Deep links
 
-granspace registers a `granspace://` URL scheme:
+Granspace registers a `granspace://` URL scheme:
 
 - `granspace://project/<id>` opens a specific project.
 - `granspace://discover`, `granspace://refresh-git`, … trigger dashboard actions.

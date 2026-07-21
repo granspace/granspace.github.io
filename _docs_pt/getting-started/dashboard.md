@@ -1,7 +1,7 @@
 ---
 title: O painel
 section: Primeiros passos
-description: Um tour pelo painel do granspace — barra superior, filtros, cards de projeto e ações em lote.
+description: Um tour pelo painel do Granspace — barra superior, filtros, cards de projeto e ações em lote.
 ---
 
 O painel é a tela inicial: cada projeto acompanhado como um card, com busca,
@@ -32,8 +32,8 @@ Cada card mostra:
 
 - uma **estrela** de favorito e um checkbox de seleção múltipla;
 - o ícone de **tipo** (stack) e o nome;
-- um **ponto de status** — sólido quando o granspace iniciou, um **anel vazado**
-  quando está rodando mas foi iniciado fora do granspace;
+- um **ponto de status** — sólido quando o Granspace iniciou, um **anel vazado**
+  quando está rodando mas foi iniciado fora do Granspace;
 - **badges** de etapa, propósito e estado de sincronização do git, mais chips de
   **tag**;
 - **links rápidos** — quadro, localhost, repositório e (desktop) pasta/terminal/editor;

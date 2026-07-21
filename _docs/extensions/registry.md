@@ -1,10 +1,10 @@
 ---
 title: Official registry
 section: Extensions
-description: The public registry granspace browses, and how to contribute.
+description: The public registry Granspace browses, and how to contribute.
 ---
 
-The **official registry** is a public list of community extensions that granspace
+The **official registry** is a public list of community extensions that Granspace
 can browse and install from directly.
 
 ## Where it lives
@@ -12,7 +12,7 @@ can browse and install from directly.
 The registry is the public
 [**extensions**]({{ site.repos.extensions }}) repository. It contains:
 
-- `registry.json` — the index granspace reads;
+- `registry.json` — the index Granspace reads;
 - one manifest per extension;
 - `schema.json` — the JSON Schema every manifest is validated against;
 - a `CONTRIBUTING` guide and CI that validates submissions.
@@ -27,5 +27,5 @@ CI checks the schema on every PR, so a valid manifest is most of the work.
 
 ## Installing from it
 
-In granspace, open **⋯ → Extensions → Browse official extensions** to install any
+In Granspace, open **⋯ → Extensions → Browse official extensions** to install any
 registry entry. See [Installing]({{ '/docs/extensions/installing/' | relative_url }}).

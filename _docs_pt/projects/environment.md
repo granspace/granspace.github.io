@@ -34,7 +34,7 @@ DATABASE_URL=postgres://localhost:5432/app
 API_KEY=••••••••        # secreta — só escrita quando o cofre está destrancado
 ```
 
-Se o `.env` já existe, o granspace pergunta antes de sobrescrever.
+Se o `.env` já existe, o Granspace pergunta antes de sobrescrever.
 
 <figure class="shot">
   <img src="{{ '/images/env-panel.png' | relative_url }}" alt="O painel de variáveis de ambiente" loading="lazy" />

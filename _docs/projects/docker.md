@@ -1,10 +1,10 @@
 ---
 title: Docker containers
 section: Projects
-description: Manage a compose project's containers from granspace.
+description: Manage a compose project's containers from Granspace.
 ---
 
-For **Docker Compose** projects, granspace adds a **Containers** panel to the
+For **Docker Compose** projects, Granspace adds a **Containers** panel to the
 project detail.
 
 <div class="callout">

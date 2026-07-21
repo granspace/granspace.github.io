@@ -1,10 +1,10 @@
 ---
 title: FAQ
 section: Reference
-description: Frequently asked questions about granspace.
+description: Frequently asked questions about Granspace.
 ---
 
-## Does granspace send my code or data anywhere?
+## Does Granspace send my code or data anywhere?
 
 No. It's [local-only]({{ '/docs/security/local-only/' | relative_url }}) — loopback
 binding, local SQLite storage, no telemetry. The only outbound calls are ones you
@@ -12,14 +12,14 @@ trigger (git, update check, extension fetch, optional GitHub import).
 
 ## Do I need the desktop app, or can I use the web dashboard?
 
-Today the **desktop app** is how granspace is distributed — the dashboard is built
+Today the **desktop app** is how Granspace is distributed — the dashboard is built
 into it (tray, native menus, notifications, quick-open, auto-update). A
 self-hosted web version (run it and open the dashboard in a browser) is on the
 roadmap.
 
 ## Where are my projects stored?
 
-granspace doesn't move your projects — it points at folders you already have. Its own
+Granspace doesn't move your projects — it points at folders you already have. Its own
 data (metadata, notes, boards, settings, encrypted secrets) lives in a local
 SQLite database (`DB_PATH` to relocate it).
 

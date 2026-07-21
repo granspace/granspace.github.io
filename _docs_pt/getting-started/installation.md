@@ -1,16 +1,16 @@
 ---
 title: Instalação
 section: Primeiros passos
-description: Instale o granspace no Linux, Windows ou macOS.
+description: Instale o Granspace no Linux, Windows ou macOS.
 ---
 
-O granspace é distribuído como app desktop. Pegue sua plataforma na
+O Granspace é distribuído como app desktop. Pegue sua plataforma na
 [página de download]({{ '/pt-br/download/' | relative_url }}) (todos os builds
 ficam no último release do GitHub).
 
 ## Requisitos
 
-- **git** no seu `PATH` (o granspace lê e roda git para os seus projetos).
+- **git** no seu `PATH` (o Granspace lê e roda git para os seus projetos).
 - **Docker** — opcional, apenas para projetos Docker Compose e o painel de
   containers.
 
@@ -38,7 +38,7 @@ são assinados).
 
 ## macOS
 
-Abra o `.dmg` e arraste o granspace para Aplicativos. Como os builds não são
+Abra o `.dmg` e arraste o Granspace para Aplicativos. Como os builds não são
 assinados, o primeiro início precisa de clique-direito → **Abrir**, ou limpe a
 flag de quarentena:
 

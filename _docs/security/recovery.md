@@ -6,7 +6,7 @@ description: Recovery key, changing the password, and resetting the vault.
 
 ## Recovery key
 
-When you first set a master password, granspace shows a **recovery key** — a
+When you first set a master password, Granspace shows a **recovery key** — a
 one-time string. Save it somewhere safe (a password manager). It's shown **once**.
 
 If you forget your password, use **Recover** with the recovery key to set a new

@@ -1,10 +1,10 @@
 ---
 title: Local-only by design
 section: Security
-description: granspace runs entirely on your machine — loopback only, local storage, no telemetry.
+description: Granspace runs entirely on your machine — loopback only, local storage, no telemetry.
 ---
 
-granspace is built to stay on your machine.
+Granspace is built to stay on your machine.
 
 ## Loopback only
 
@@ -15,13 +15,13 @@ exposed on your network.
 
 ## Local storage
 
-Everything granspace knows — projects, tags, notes, boards, settings and
+Everything Granspace knows — projects, tags, notes, boards, settings and
 (encrypted) secrets — lives in a **local SQLite database** on your machine. You
 can point it elsewhere with the `DB_PATH` environment variable.
 
 ## No telemetry
 
-granspace doesn't phone home. The only outbound requests are the ones you trigger:
+Granspace doesn't phone home. The only outbound requests are the ones you trigger:
 
 - **git** operations (fetch/pull/push) to your own remotes;
 - the **update check** against the public releases feed;

@@ -1,7 +1,7 @@
 ---
 title: Auto-update
 section: App desktop
-description: Como o granspace se atualiza em cada plataforma.
+description: Como o Granspace se atualiza em cada plataforma.
 ---
 
 O app desktop verifica se há uma versão mais nova ao iniciar, contra o feed

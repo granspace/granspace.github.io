@@ -1,7 +1,7 @@
 # site
 
-Public distribution **site + downloads + update feed** for **granspace** (a local
-project manager). The granspace source code is private and separate; only these
+Public distribution **site + downloads + update feed** for **Granspace** (a local
+project manager). The Granspace source code is private and separate; only these
 public bits live here.
 
 - **Site** — presentation, documentation and download pages, served via **GitHub

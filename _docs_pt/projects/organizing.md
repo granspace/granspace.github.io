@@ -4,7 +4,7 @@ section: Projetos
 description: Etapa, propósito, tags, favoritos e notas para manter os projetos organizados.
 ---
 
-O granspace dá a cada projeto um pouco de metadado para uma lista longa continuar
+O Granspace dá a cada projeto um pouco de metadado para uma lista longa continuar
 escaneável.
 
 ## Etapa e propósito
@@ -37,6 +37,6 @@ importantes. As notas são pesquisáveis pela busca global.
 
 ## Projetos ausentes
 
-Se uma pasta acompanhada some do disco, o granspace marca o projeto como **ausente**
+Se uma pasta acompanhada some do disco, o Granspace marca o projeto como **ausente**
 (um badge) em vez de descartá-lo — então você não perde seu metadado, notas ou
 quadro. Remova-o explicitamente quando terminar, opcionalmente apagando os dados.

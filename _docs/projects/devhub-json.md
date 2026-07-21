@@ -1,11 +1,11 @@
 ---
 title: granspace.json
 section: Projects
-description: A per-project config file that granspace applies automatically.
+description: A per-project config file that Granspace applies automatically.
 ---
 
-`granspace.json` lets a project describe how granspace should set it up. When you add a
-project that has one, granspace applies it automatically — great for shared repos
+`granspace.json` lets a project describe how Granspace should set it up. When you add a
+project that has one, Granspace applies it automatically — great for shared repos
 and onboarding.
 
 ## Example

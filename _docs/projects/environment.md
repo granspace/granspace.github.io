@@ -35,7 +35,7 @@ DATABASE_URL=postgres://localhost:5432/app
 API_KEY=••••••••        # secret — only written when the vault is unlocked
 ```
 
-If the `.env` already exists, granspace asks before overwriting.
+If the `.env` already exists, Granspace asks before overwriting.
 
 <figure class="shot">
   <img src="{{ '/images/env-panel.png' | relative_url }}" alt="The environment variables panel" loading="lazy" />

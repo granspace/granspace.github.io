@@ -1,10 +1,10 @@
 ---
 title: Registro oficial
 section: Extensões
-description: O registro público que o granspace navega, e como contribuir.
+description: O registro público que o Granspace navega, e como contribuir.
 ---
 
-O **registro oficial** é uma lista pública de extensões da comunidade que o granspace
+O **registro oficial** é uma lista pública de extensões da comunidade que o Granspace
 pode navegar e instalar diretamente.
 
 ## Onde ele fica
@@ -12,7 +12,7 @@ pode navegar e instalar diretamente.
 O registro é o repositório público
 [**extensions**]({{ site.repos.extensions }}). Ele contém:
 
-- `registry.json` — o índice que o granspace lê;
+- `registry.json` — o índice que o Granspace lê;
 - um manifesto por extensão;
 - `schema.json` — o JSON Schema contra o qual todo manifesto é validado;
 - um guia `CONTRIBUTING` e CI que valida as submissões.
@@ -28,5 +28,5 @@ trabalho.
 
 ## Instalando dele
 
-No granspace, abra **⋯ → Extensões → Ver extensões oficiais** para instalar qualquer
+No Granspace, abra **⋯ → Extensões → Ver extensões oficiais** para instalar qualquer
 entrada do registro. Veja [Instalando]({{ '/pt-br/docs/extensions/installing/' | relative_url }}).

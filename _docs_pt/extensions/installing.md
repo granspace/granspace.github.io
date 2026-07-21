@@ -20,7 +20,7 @@ Elixir, Deno, Maven, Gradle, Dart, Make e mais — e instale com um clique.
 
 ## De uma URL
 
-Cole a URL do manifesto JSON de uma extensão e **Instalar**. O granspace o busca
+Cole a URL do manifesto JSON de uma extensão e **Instalar**. O Granspace o busca
 (apenas http/https), valida contra o schema e o guarda.
 
 ## Removendo

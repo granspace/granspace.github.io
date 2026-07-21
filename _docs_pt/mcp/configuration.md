@@ -1,7 +1,7 @@
 ---
 title: Configurando um cliente
 section: MCP (agentes de IA)
-description: Como um cliente MCP vai conectar ao servidor MCP do granspace.
+description: Como um cliente MCP vai conectar ao servidor MCP do Granspace.
 ---
 
 <div class="callout warn">
@@ -24,7 +24,7 @@ A maioria dos clientes (Claude Desktop, Cursor, Claude Code, …) usa um mapa
 {
   "mcpServers": {
     "granspace": {
-      "command": "<launcher MCP do granspace entregue com o app>"
+      "command": "<launcher MCP do Granspace entregue com o app>"
     }
   }
 }

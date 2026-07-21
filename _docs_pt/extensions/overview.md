@@ -1,11 +1,11 @@
 ---
 title: Visão geral
 section: Extensões
-description: Como o granspace detecta tipos de projeto e descobre comandos — de forma declarativa, via extensões.
+description: Como o Granspace detecta tipos de projeto e descobre comandos — de forma declarativa, via extensões.
 ---
 
 Extensões adicionam suporte a mais linguagens e ferramentas **sem alterar o
-granspace em si**. Elas são **declarativas** — meros manifestos JSON, nenhum código
+Granspace em si**. Elas são **declarativas** — meros manifestos JSON, nenhum código
 de terceiros roda — e dirigem duas coisas:
 
 - **Detecção** — como uma pasta é reconhecida como um projeto de certo tipo.
@@ -13,7 +13,7 @@ de terceiros roda — e dirigem duas coisas:
 
 ## Extensões nativas
 
-O granspace já vem com nativas para **Node**, **Docker Compose**, **Unity**,
+O Granspace já vem com nativas para **Node**, **Docker Compose**, **Unity**,
 **PHP**, **Python**, **Go** e **Rust**. Os ids nativos não podem ser sobrepostos
 por extensões instaladas.
 
@@ -27,7 +27,7 @@ e mescladas com as nativas em runtime.
 
 Uma extensão é dado, não código: ela declara *padrões de arquivo* para detectar um
 projeto e *de onde vêm os comandos* (ex.: os `scripts` de um `package.json`). O
-granspace nunca executa código enviado por uma extensão — só lê os arquivos do seu
+Granspace nunca executa código enviado por uma extensão — só lê os arquivos do seu
 projeto.
 
 A seguir: [Instalando]({{ '/pt-br/docs/extensions/installing/' | relative_url }}) ·

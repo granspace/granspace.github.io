@@ -2,17 +2,17 @@
 title: Introdução
 section: Introdução
 permalink: /pt-br/docs/
-description: O que é o granspace — um gerenciador local dos projetos de desenvolvimento espalhados pela sua máquina.
+description: O que é o Granspace — um gerenciador local dos projetos de desenvolvimento espalhados pela sua máquina.
 ---
 
-O **granspace** é um gerenciador local dos projetos de desenvolvimento espalhados
+O **Granspace** é um gerenciador local dos projetos de desenvolvimento espalhados
 pela sua máquina. Ele descobre seus projetos, mantém tudo organizado, roda com
 logs ao vivo e acompanha o estado do git/saúde — tudo num só lugar, rodando
 inteiramente no seu computador.
 
 ## Três formas de usar
 
-O granspace é um app com três superfícies, todas apoiadas na mesma lógica. **Hoje
+O Granspace é um app com três superfícies, todas apoiadas na mesma lógica. **Hoje
 ele é distribuído como app desktop**; as outras duas estão no roadmap:
 
 | Superfície | O que é | Disponibilidade |
@@ -29,7 +29,7 @@ ele é distribuído como app desktop**; as outras duas estão no roadmap:
 </div>
 
 <figure class="shot">
-  <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="Visão geral do painel do granspace" loading="lazy" />
+  <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="Visão geral do painel do Granspace" loading="lazy" />
   <figcaption>O painel listando os projetos descobertos. (screenshot pendente)</figcaption>
 </figure>
 
@@ -49,10 +49,10 @@ ele é distribuído como app desktop**; as outras duas estão no roadmap:
 
 ## Local-first e privado
 
-O granspace escuta apenas em loopback e guarda tudo num banco SQLite local na sua
+O Granspace escuta apenas em loopback e guarda tudo num banco SQLite local na sua
 máquina. Nada é enviado para lugar nenhum. Veja [Local por design]({{ '/pt-br/docs/security/local-only/' | relative_url }}).
 
 ## Próximos passos
 
-- [Instalar o granspace]({{ '/pt-br/docs/getting-started/installation/' | relative_url }})
+- [Instalar o Granspace]({{ '/pt-br/docs/getting-started/installation/' | relative_url }})
 - [Primeiro início]({{ '/pt-br/docs/getting-started/first-launch/' | relative_url }})

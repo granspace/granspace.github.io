@@ -1,10 +1,10 @@
 ---
 title: Local por design
 section: Segurança
-description: O granspace roda inteiramente na sua máquina — somente loopback, armazenamento local, sem telemetria.
+description: O Granspace roda inteiramente na sua máquina — somente loopback, armazenamento local, sem telemetria.
 ---
 
-O granspace é feito para ficar na sua máquina.
+O Granspace é feito para ficar na sua máquina.
 
 ## Somente loopback
 
@@ -15,13 +15,13 @@ vão — nada é exposto na sua rede.
 
 ## Armazenamento local
 
-Tudo que o granspace sabe — projetos, tags, notas, quadros, configurações e secrets
+Tudo que o Granspace sabe — projetos, tags, notas, quadros, configurações e secrets
 (criptografados) — vive num **banco SQLite local** na sua máquina. Você pode
 apontá-lo para outro lugar com a variável de ambiente `DB_PATH`.
 
 ## Sem telemetria
 
-O granspace não liga pra casa. As únicas requisições de saída são as que você dispara:
+O Granspace não liga pra casa. As únicas requisições de saída são as que você dispara:
 
 - operações de **git** (fetch/pull/push) para seus próprios remotes;
 - a **verificação de atualização** contra o feed público de releases;

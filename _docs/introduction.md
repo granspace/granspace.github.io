@@ -2,16 +2,16 @@
 title: Introduction
 section: Introduction
 permalink: /docs/
-description: What granspace is — a local manager for the dev projects scattered across your machine.
+description: What Granspace is — a local manager for the dev projects scattered across your machine.
 ---
 
-**granspace** is a local manager for the dev projects scattered across your machine.
+**Granspace** is a local manager for the dev projects scattered across your machine.
 It discovers your projects, keeps them organized, runs them with live logs, and
 tracks their git/health — all from one place, running entirely on your computer.
 
 ## How you use it
 
-granspace is one app with three surfaces, all backed by the same logic. **Today it's
+Granspace is one app with three surfaces, all backed by the same logic. **Today it's
 distributed as a desktop app**; the other two surfaces are on the roadmap.
 
 | Surface | What it is | Availability |
@@ -28,7 +28,7 @@ distributed as a desktop app**; the other two surfaces are on the roadmap.
 </div>
 
 <figure class="shot">
-  <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="granspace dashboard overview" loading="lazy" />
+  <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="Granspace dashboard overview" loading="lazy" />
   <figcaption>The dashboard listing discovered projects. (screenshot pending)</figcaption>
 </figure>
 
@@ -48,10 +48,10 @@ distributed as a desktop app**; the other two surfaces are on the roadmap.
 
 ## Local-first & private
 
-granspace binds to loopback only and stores everything in a local SQLite database on
+Granspace binds to loopback only and stores everything in a local SQLite database on
 your machine. Nothing is sent anywhere. See [Local-only by design]({{ '/docs/security/local-only/' | relative_url }}).
 
 ## Next steps
 
-- [Install granspace]({{ '/docs/getting-started/installation/' | relative_url }})
+- [Install Granspace]({{ '/docs/getting-started/installation/' | relative_url }})
 - [First launch]({{ '/docs/getting-started/first-launch/' | relative_url }})

@@ -4,7 +4,7 @@ section: Projetos
 description: Veja o estado de sincronização do git de relance e rode ações comuns pela interface.
 ---
 
-O granspace lê o status do git de cada projeto e deixa você rodar ações comuns sem
+O Granspace lê o status do git de cada projeto e deixa você rodar ações comuns sem
 sair do app.
 
 ## Estado de sincronização

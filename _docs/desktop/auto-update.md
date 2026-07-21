@@ -1,7 +1,7 @@
 ---
 title: Auto-update
 section: Desktop app
-description: How granspace updates itself across platforms.
+description: How Granspace updates itself across platforms.
 ---
 
 The desktop app checks for a newer version on launch, against the public releases

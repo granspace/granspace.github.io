@@ -4,7 +4,7 @@ section: Projects
 description: See git sync state at a glance and run common git actions from the UI.
 ---
 
-granspace reads each project's git status and lets you run common actions without
+Granspace reads each project's git status and lets you run common actions without
 leaving the app.
 
 ## Sync state

@@ -4,7 +4,7 @@ en:
   nav_docs: Docs
   nav_download: Download
   nav_extensions: Extensions
-  footer_tagline: "granspace — runs entirely on your machine (loopback only)."
+  footer_tagline: "Granspace — runs entirely on your machine (loopback only)."
   footer_docs: Docs
   footer_download: Download
   footer_extensions: Extensions registry
@@ -14,7 +14,7 @@ pt-br:
   nav_docs: Docs
   nav_download: Download
   nav_extensions: Extensões
-  footer_tagline: "granspace — roda inteiramente na sua máquina (somente loopback)."
+  footer_tagline: "Granspace — roda inteiramente na sua máquina (somente loopback)."
   footer_docs: Docs
   footer_download: Download
   footer_extensions: Registro de extensões

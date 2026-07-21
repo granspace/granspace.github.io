@@ -8,8 +8,8 @@ The desktop build wraps the dashboard in a native shell with a few extras.
 
 ## System tray
 
-granspace lives in the tray with a label showing how many projects are running and
-how many need attention. The tray menu offers **Show granspace**, **Discover
+Granspace lives in the tray with a label showing how many projects are running and
+how many need attention. The tray menu offers **Show Granspace**, **Discover
 projects**, **Refresh all git**, quick-open for your
 [projects]({{ '/docs/desktop/quick-open/' | relative_url }}), **Check for
 updates**, and **Quit**.

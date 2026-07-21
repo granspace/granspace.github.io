@@ -26,7 +26,7 @@ then re-run **Discover**.
 
 ## Git actions fail
 
-granspace calls your system **git** — make sure it's installed and on your `PATH`,
+Granspace calls your system **git** — make sure it's installed and on your `PATH`,
 and that the repo has the remote/credentials it needs.
 
 ## The Docker panel doesn't appear
@@ -41,4 +41,4 @@ Secret values require the vault to be **unlocked** with your master password. Se
 
 ## Moving the database
 
-Point granspace at a different database file with the `DB_PATH` environment variable.
+Point Granspace at a different database file with the `DB_PATH` environment variable.

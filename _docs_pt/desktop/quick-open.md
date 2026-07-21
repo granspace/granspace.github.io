@@ -19,7 +19,7 @@ Os favoritos vêm primeiro, então favorite os projetos que você mais abre (vej
 
 ## Deep links
 
-O granspace registra um esquema de URL `granspace://`:
+O Granspace registra um esquema de URL `granspace://`:
 
 - `granspace://project/<id>` abre um projeto específico.
 - `granspace://discover`, `granspace://refresh-git`, … disparam ações do painel.

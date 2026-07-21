@@ -1,16 +1,16 @@
 ---
 title: Installation
 section: Getting started
-description: Install granspace on Linux, Windows or macOS.
+description: Install Granspace on Linux, Windows or macOS.
 ---
 
-granspace ships as a desktop app. Grab your platform from the
+Granspace ships as a desktop app. Grab your platform from the
 [Download page]({{ '/download/' | relative_url }}) (all builds live on the latest
 GitHub release).
 
 ## Requirements
 
-- **git** on your `PATH` (granspace reads and runs git for your projects).
+- **git** on your `PATH` (Granspace reads and runs git for your projects).
 - **Docker** — optional, only for Docker Compose projects and the container panel.
 
 ## Linux
@@ -36,7 +36,7 @@ publisher, choose **More info → Run anyway** (builds are unsigned).
 
 ## macOS
 
-Open the `.dmg` and drag granspace to Applications. Because builds are unsigned,
+Open the `.dmg` and drag Granspace to Applications. Because builds are unsigned,
 the first launch needs a right-click → **Open**, or clear the quarantine flag:
 
 ```bash

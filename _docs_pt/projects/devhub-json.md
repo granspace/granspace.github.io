@@ -1,11 +1,11 @@
 ---
 title: granspace.json
 section: Projetos
-description: Um arquivo de config por projeto que o granspace aplica automaticamente.
+description: Um arquivo de config por projeto que o Granspace aplica automaticamente.
 ---
 
-O `granspace.json` deixa um projeto descrever como o granspace deve configurá-lo. Quando
-você adiciona um projeto que tem um, o granspace o aplica automaticamente — ótimo
+O `granspace.json` deixa um projeto descrever como o Granspace deve configurá-lo. Quando
+você adiciona um projeto que tem um, o Granspace o aplica automaticamente — ótimo
 para repositórios compartilhados e onboarding.
 
 ## Exemplo

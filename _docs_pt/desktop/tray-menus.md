@@ -8,8 +8,8 @@ O build desktop envolve o painel numa casca nativa com alguns extras.
 
 ## Bandeja do sistema
 
-O granspace fica na bandeja com um rótulo mostrando quantos projetos estão rodando e
-quantos precisam de atenção. O menu da bandeja oferece **Mostrar granspace**,
+O Granspace fica na bandeja com um rótulo mostrando quantos projetos estão rodando e
+quantos precisam de atenção. O menu da bandeja oferece **Mostrar Granspace**,
 **Descobrir projetos**, **Atualizar git de todos**, abertura rápida dos seus
 [projetos]({{ '/pt-br/docs/desktop/quick-open/' | relative_url }}), **Verificar
 atualizações** e **Sair**.
