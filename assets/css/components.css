@@ -147,3 +147,8 @@ th {
   padding: 1.4rem 0.8rem;
   text-align: center;
 }
+
+/* Inline SVG icons (sprite + <use>), theme-aware via currentColor. */
+.ic { display: inline-block; width: 1em; height: 1em; vertical-align: -0.125em; fill: currentColor; }
+.card .ico .ic, .dl-grid .ico .ic { width: 1.9rem; height: 1.9rem; }
+.donate-card h3 .ic { width: 1.15em; vertical-align: -0.18em; margin-right: 0.35rem; }

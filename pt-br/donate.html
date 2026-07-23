@@ -12,7 +12,7 @@ description: Apoie o desenvolvimento do Granspace com uma doação única ou rec
 <div class="donate-grid" style="margin-top:1.5rem">
   {% if d.pix and d.pix != "" %}
   <section class="card donate-card">
-    <h3>💠 PIX</h3>
+    <h3>{% include icon.html name="pix" %} PIX</h3>
     <p>Escaneie o QR code no app do seu banco, ou copie a chave.</p>
     <div class="qr" data-qr="pix" data-pix-key="{{ d.pix }}" data-pix-name="{{ d.pix_name }}" data-pix-city="{{ d.pix_city }}"></div>
     <div class="copy-field">
@@ -24,7 +24,7 @@ description: Apoie o desenvolvimento do Granspace com uma doação única ou rec
 
   {% if d.buymeacoffee and d.buymeacoffee != "" %}
   <section class="card donate-card">
-    <h3>☕ Buy Me a Coffee</h3>
+    <h3>{% include icon.html name="coffee" %} Buy Me a Coffee</h3>
     <p>Um agrado rápido, de uma vez.</p>
     <a class="btn" href="{{ d.buymeacoffee }}" target="_blank" rel="noopener noreferrer">Pagar um café →</a>
   </section>
@@ -32,7 +32,7 @@ description: Apoie o desenvolvimento do Granspace com uma doação única ou rec
 
   {% if d.bitcoin and d.bitcoin != "" %}
   <section class="card donate-card">
-    <h3>₿ Bitcoin</h3>
+    <h3>{% include icon.html name="bitcoin" %} Bitcoin</h3>
     <p>Escaneie o QR code, ou copie o endereço.</p>
     <div class="qr" data-qr="btc" data-btc="{{ d.bitcoin }}"></div>
     <div class="copy-field">
@@ -44,7 +44,7 @@ description: Apoie o desenvolvimento do Granspace com uma doação única ou rec
 
   {% if d.github_sponsors and d.github_sponsors != "" %}
   <section class="card donate-card">
-    <h3>♥ GitHub Sponsors</h3>
+    <h3>{% include icon.html name="heart" %} GitHub Sponsors</h3>
     <p>Recorrente ou único, pelo GitHub.</p>
     <a class="btn" href="https://github.com/sponsors/{{ d.github_sponsors }}" target="_blank" rel="noopener noreferrer">Apoiar no GitHub →</a>
   </section>

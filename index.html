@@ -22,21 +22,21 @@ lang: en
   <section class="home-section">
     <h2>What it does</h2>
     <div class="grid">
-      <div class="card"><div class="ico">🔍</div><h3>Discover &amp; track</h3><p>Find your projects across multiple folders and keep them organized (stage, purpose, tags, notes).</p></div>
-      <div class="card"><div class="ico">▶️</div><h3>Run &amp; watch</h3><p>Start/stop projects and named commands with live, colored logs. Port-conflict detection built in.</p></div>
-      <div class="card"><div class="ico">📋</div><h3>Kanban &amp; notes</h3><p>A configurable board per project, with checklists, priorities, due dates and pinned notes.</p></div>
-      <div class="card"><div class="ico">🔀</div><h3>Git health</h3><p>See sync state at a glance and run pull / push / commit / stash from the UI.</p></div>
-      <div class="card"><div class="ico">🔑</div><h3>Encrypted secrets</h3><p>Per-project env vars, with secrets encrypted behind a master password (with recovery key).</p></div>
-      <div class="card"><div class="ico">🧩</div><h3>Extensions</h3><p>Declarative, installable support for more languages/tools — Node, PHP, Python, Go, Rust, Docker and more.</p></div>
+      <div class="card"><div class="ico">{% include icon.html name="search" %}</div><h3>Discover &amp; track</h3><p>Find your projects across multiple folders and keep them organized (stage, purpose, tags, notes).</p></div>
+      <div class="card"><div class="ico">{% include icon.html name="play" %}</div><h3>Run &amp; watch</h3><p>Start/stop projects and named commands with live, colored logs. Port-conflict detection built in.</p></div>
+      <div class="card"><div class="ico">{% include icon.html name="board" %}</div><h3>Kanban &amp; notes</h3><p>A configurable board per project, with checklists, priorities, due dates and pinned notes.</p></div>
+      <div class="card"><div class="ico">{% include icon.html name="git-branch" %}</div><h3>Git health</h3><p>See sync state at a glance and run pull / push / commit / stash from the UI.</p></div>
+      <div class="card"><div class="ico">{% include icon.html name="key" %}</div><h3>Encrypted secrets</h3><p>Per-project env vars, with secrets encrypted behind a master password (with recovery key).</p></div>
+      <div class="card"><div class="ico">{% include icon.html name="puzzle" %}</div><h3>Extensions</h3><p>Declarative, installable support for more languages/tools — Node, PHP, Python, Go, Rust, Docker and more.</p></div>
     </div>
   </section>
 
   <section class="home-section">
     <h2>Get Granspace</h2>
     <div class="dl-grid">
-      <a href="{{ '/download/' | relative_url }}"><div class="card"><div class="ico">🐧</div><h3>Linux</h3><p>AppImage (self-updating) or .deb.</p></div></a>
-      <a href="{{ '/download/' | relative_url }}"><div class="card"><div class="ico">🪟</div><h3>Windows</h3><p>Installer (.exe).</p></div></a>
-      <a href="{{ '/download/' | relative_url }}"><div class="card"><div class="ico">🍎</div><h3>macOS</h3><p>Disk image (.dmg).</p></div></a>
+      <a href="{{ '/download/' | relative_url }}"><div class="card"><div class="ico">{% include icon.html name="linux" %}</div><h3>Linux</h3><p>AppImage (self-updating) or .deb.</p></div></a>
+      <a href="{{ '/download/' | relative_url }}"><div class="card"><div class="ico">{% include icon.html name="windows" %}</div><h3>Windows</h3><p>Installer (.exe).</p></div></a>
+      <a href="{{ '/download/' | relative_url }}"><div class="card"><div class="ico">{% include icon.html name="apple" %}</div><h3>macOS</h3><p>Disk image (.dmg).</p></div></a>
     </div>
   </section>
 

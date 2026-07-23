@@ -12,7 +12,7 @@ description: Support Granspace's development with a one-time or recurring donati
 <div class="donate-grid" style="margin-top:1.5rem">
   {% if d.pix and d.pix != "" %}
   <section class="card donate-card">
-    <h3>💠 PIX</h3>
+    <h3>{% include icon.html name="pix" %} PIX</h3>
     <p>Scan the QR code in your bank app, or copy the key.</p>
     <div class="qr" data-qr="pix" data-pix-key="{{ d.pix }}" data-pix-name="{{ d.pix_name }}" data-pix-city="{{ d.pix_city }}"></div>
     <div class="copy-field">
@@ -24,7 +24,7 @@ description: Support Granspace's development with a one-time or recurring donati
 
   {% if d.buymeacoffee and d.buymeacoffee != "" %}
   <section class="card donate-card">
-    <h3>☕ Buy Me a Coffee</h3>
+    <h3>{% include icon.html name="coffee" %} Buy Me a Coffee</h3>
     <p>A quick one-off tip.</p>
     <a class="btn" href="{{ d.buymeacoffee }}" target="_blank" rel="noopener noreferrer">Buy me a coffee →</a>
   </section>
@@ -32,7 +32,7 @@ description: Support Granspace's development with a one-time or recurring donati
 
   {% if d.bitcoin and d.bitcoin != "" %}
   <section class="card donate-card">
-    <h3>₿ Bitcoin</h3>
+    <h3>{% include icon.html name="bitcoin" %} Bitcoin</h3>
     <p>Scan the QR code, or copy the address.</p>
     <div class="qr" data-qr="btc" data-btc="{{ d.bitcoin }}"></div>
     <div class="copy-field">
@@ -44,7 +44,7 @@ description: Support Granspace's development with a one-time or recurring donati
 
   {% if d.github_sponsors and d.github_sponsors != "" %}
   <section class="card donate-card">
-    <h3>♥ GitHub Sponsors</h3>
+    <h3>{% include icon.html name="heart" %} GitHub Sponsors</h3>
     <p>Recurring or one-time, through GitHub.</p>
     <a class="btn" href="https://github.com/sponsors/{{ d.github_sponsors }}" target="_blank" rel="noopener noreferrer">Sponsor on GitHub →</a>
   </section>
