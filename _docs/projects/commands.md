@@ -33,8 +33,20 @@ shows `dev`, `build` and `test` as runnable commands under
 
 ## Running & streaming
 
-Each command has **Run** and a **live log** view that streams output as it
-happens (server-sent events). Stop a running command from the same row.
+Each command has **Run** and a **live log** view that streams output as it happens
+(server-sent events). Every command runs as its own tracked process with its own
+**log file**, so:
+
+- you can **add your own** named commands beyond the discovered ones;
+- the row shows whether a command is **running**, and you can **Stop** it from the
+  same row;
+- when a command ends you get **finish feedback** — success or failure — and the
+  log stays available to scroll back through, even after it stops or you navigate
+  away and return.
+
+This is separate from the project's primary
+[Start/Stop]({{ '/docs/projects/running/' | relative_url }}) — you can run commands
+alongside it.
 
 ## Runtime strategies
 

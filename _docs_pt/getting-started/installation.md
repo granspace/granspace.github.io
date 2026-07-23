@@ -8,6 +8,10 @@ O Granspace é distribuído como app desktop. Pegue sua plataforma na
 [página de download]({{ '/pt-br/download/' | relative_url }}) (todos os builds
 ficam no último release do GitHub).
 
+O Granspace é autossuficiente: usa o SQLite embutido no próprio runtime, então **não
+há banco de dados separado para instalar** nem módulos nativos para compilar — ele
+simplesmente roda.
+
 ## Requisitos
 
 - **git** no seu `PATH` (o Granspace lê e roda git para os seus projetos).

@@ -4,9 +4,11 @@
 {% if lang == 'pt-br' %}
   {% assign docs_url = '/pt-br/docs/' %}
   {% assign download_url = '/pt-br/download/' %}
+  {% assign donate_url = '/pt-br/donate/' %}
 {% else %}
   {% assign docs_url = '/docs/' %}
   {% assign download_url = '/download/' %}
+  {% assign donate_url = '/donate/' %}
 {% endif %}
 <footer class="site-footer">
   <div class="wrap">
@@ -14,7 +16,9 @@
       {{ t.footer_tagline }}
       <a href="{{ docs_url | relative_url }}">{{ t.footer_docs }}</a> ·
       <a href="{{ download_url | relative_url }}">{{ t.footer_download }}</a> ·
-      <a href="{{ site.repos.extensions }}">{{ t.footer_extensions }}</a>
+      <a href="{{ site.repos.extensions }}">{{ t.footer_extensions }}</a> ·
+      <a href="{{ donate_url | relative_url }}">{{ t.footer_donate }}</a> ·
+      <a href="{{ site.repos.feedback }}/issues">{{ t.footer_feedback }}</a>
     </p>
   </div>
 </footer>

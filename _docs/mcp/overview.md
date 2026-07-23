@@ -1,4 +1,5 @@
 ---
+published: false
 title: Overview
 section: MCP (AI agents)
 description: Granspace speaks the Model Context Protocol so AI agents can manage your projects.

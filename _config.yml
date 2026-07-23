@@ -13,6 +13,15 @@ baseurl: /site
 repos:
   extensions: https://github.com/granspace/extensions
   releases: https://github.com/granspace/site/releases/latest
+  feedback: https://github.com/granspace/feedback
+
+# Donation methods for the /donate/ page. Fill in only what you use — each method
+# renders only when its value is set here (empty string = hidden on the page).
+donate:
+  pix: ""              # PIX key (email, phone, CPF, random key, or a full BR Code payload)
+  buymeacoffee: ""     # full URL, e.g. https://www.buymeacoffee.com/yourname
+  bitcoin: ""          # BTC receiving address
+  github_sponsors: ""  # GitHub username, e.g. yourname
 
 # Docs are a collection: one Markdown file per topic, output as its own page.
 collections:

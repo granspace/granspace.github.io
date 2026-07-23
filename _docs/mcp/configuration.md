@@ -1,4 +1,5 @@
 ---
+published: false
 title: Configuring a client
 section: MCP (AI agents)
 description: How an MCP client will connect to Granspace's MCP server.

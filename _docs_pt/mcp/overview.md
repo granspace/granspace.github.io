@@ -1,4 +1,5 @@
 ---
+published: false
 title: Visão geral
 section: MCP (agentes de IA)
 description: O Granspace fala Model Context Protocol para que agentes de IA gerenciem seus projetos.

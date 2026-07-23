@@ -5,12 +5,14 @@
   {% assign home_url = '/pt-br/' %}
   {% assign docs_url = '/pt-br/docs/' %}
   {% assign download_url = '/pt-br/download/' %}
+  {% assign donate_url = '/pt-br/donate/' %}
   {% assign en_url = page.url | remove_first: '/pt-br' %}
   {% assign pt_url = page.url %}
 {% else %}
   {% assign home_url = '/' %}
   {% assign docs_url = '/docs/' %}
   {% assign download_url = '/download/' %}
+  {% assign donate_url = '/donate/' %}
   {% assign en_url = page.url %}
   {% assign pt_url = '/pt-br' | append: page.url %}
 {% endif %}
@@ -24,6 +26,7 @@
       <a href="{{ docs_url | relative_url }}">{{ t.nav_docs }}</a>
       <a href="{{ download_url | relative_url }}">{{ t.nav_download }}</a>
       <a href="{{ site.repos.extensions }}">{{ t.nav_extensions }}</a>
+      <a href="{{ donate_url | relative_url }}">{{ t.nav_donate }}</a>
       <span class="lang-switch" aria-label="Language">
         <a href="{{ en_url | relative_url }}" class="{% unless lang == 'pt-br' %}active{% endunless %}" hreflang="en">EN</a>
         <a href="{{ pt_url | relative_url }}" class="{% if lang == 'pt-br' %}active{% endif %}" hreflang="pt-BR">PT</a>

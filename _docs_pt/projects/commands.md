@@ -34,8 +34,18 @@ mostra `dev`, `build` e `test` como comandos executáveis em
 ## Rodar e streaming
 
 Cada comando tem **Rodar** e uma visão de **log ao vivo** que transmite a saída
-conforme acontece (server-sent events). Pare um comando em execução na mesma
-linha.
+conforme acontece (server-sent events). Cada comando roda como seu próprio processo
+acompanhado, com seu próprio **arquivo de log**, então:
+
+- você pode **adicionar os seus** comandos nomeados além dos descobertos;
+- a linha mostra se um comando está **rodando**, e você pode **Parar** na mesma
+  linha;
+- ao terminar, você recebe **feedback de conclusão** — sucesso ou erro — e o log
+  continua disponível para rolar, mesmo depois de parar ou de você sair da tela e
+  voltar.
+
+Isso é separado do [Iniciar/Parar]({{ '/pt-br/docs/projects/running/' | relative_url }})
+principal do projeto — você pode rodar comandos junto com ele.
 
 ## Estratégias de execução
 

@@ -1,4 +1,5 @@
 ---
+published: false
 title: Tools reference
 section: MCP (AI agents)
 description: The kinds of tools Granspace exposes over MCP.

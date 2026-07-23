@@ -1,0 +1,72 @@
+---
+layout: page
+title: Donate
+permalink: /donate/
+lang: en
+description: Support Granspace's development with a one-time or recurring donation.
+---
+<p class="tag muted">Granspace is built with care and given away for free. If it saves you time, a donation helps keep it going — thank you. Pick whichever method suits you.</p>
+
+{% assign d = site.donate %}
+
+<div class="donate-grid" style="margin-top:1.5rem">
+  {% if d.pix and d.pix != "" %}
+  <section class="card donate-card">
+    <h3>💠 PIX</h3>
+    <p>Scan or copy the key in your bank app.</p>
+    <div class="copy-field">
+      <code>{{ d.pix }}</code>
+      <button class="btn copy-btn" type="button" data-copy="{{ d.pix }}">Copy</button>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if d.buymeacoffee and d.buymeacoffee != "" %}
+  <section class="card donate-card">
+    <h3>☕ Buy Me a Coffee</h3>
+    <p>A quick one-off tip.</p>
+    <a class="btn" href="{{ d.buymeacoffee }}" target="_blank" rel="noopener noreferrer">Buy me a coffee →</a>
+  </section>
+  {% endif %}
+
+  {% if d.bitcoin and d.bitcoin != "" %}
+  <section class="card donate-card">
+    <h3>₿ Bitcoin</h3>
+    <p>Send to this address (BIP 21 <code>bitcoin:</code> URI works too).</p>
+    <div class="copy-field">
+      <code>{{ d.bitcoin }}</code>
+      <button class="btn copy-btn" type="button" data-copy="{{ d.bitcoin }}">Copy</button>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if d.github_sponsors and d.github_sponsors != "" %}
+  <section class="card donate-card">
+    <h3>♥ GitHub Sponsors</h3>
+    <p>Recurring or one-time, through GitHub.</p>
+    <a class="btn" href="https://github.com/sponsors/{{ d.github_sponsors }}" target="_blank" rel="noopener noreferrer">Sponsor on GitHub →</a>
+  </section>
+  {% endif %}
+</div>
+
+{% unless d and d.pix != "" or d.buymeacoffee != "" or d.bitcoin != "" or d.github_sponsors != "" %}
+<div class="callout">Donation methods aren't set up yet — check back soon.</div>
+{% endunless %}
+
+<style>
+  .donate-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .donate-card h3 { margin-top: 0; }
+  .copy-field { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+  .copy-field code { flex: 1 1 auto; overflow-wrap: anywhere; padding: .4rem .6rem; border-radius: 6px; background: rgba(127,127,127,.12); }
+</style>
+<script>
+  document.querySelectorAll('.copy-btn').forEach(function (b) {
+    b.addEventListener('click', function () {
+      navigator.clipboard.writeText(b.getAttribute('data-copy')).then(function () {
+        var prev = b.textContent;
+        b.textContent = 'Copied!';
+        setTimeout(function () { b.textContent = prev; }, 1500);
+      });
+    });
+  });
+</script>

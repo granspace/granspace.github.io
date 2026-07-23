@@ -8,14 +8,20 @@ O build desktop envolve o painel numa casca nativa com alguns extras.
 
 ## Bandeja do sistema
 
-O Granspace fica na bandeja com um rótulo mostrando quantos projetos estão rodando e
+A bandeja é **opcional**. Ative **Manter rodando na bandeja** em **Configurações** e
+o Granspace fica na bandeja com um rótulo mostrando quantos projetos estão rodando e
 quantos precisam de atenção. O menu da bandeja oferece **Mostrar Granspace**,
 **Descobrir projetos**, **Atualizar git de todos**, abertura rápida dos seus
 [projetos]({{ '/pt-br/docs/desktop/quick-open/' | relative_url }}), **Verificar
 atualizações** e **Sair**.
 
-Fechar a janela **esconde na bandeja** (o backend continua rodando); sair é
-explícito.
+### Comportamento ao fechar
+
+- **Bandeja desligada (padrão):** fechar a janela **encerra** o Granspace.
+- **Bandeja ligada:** fechar a janela **esconde na bandeja** (o backend continua
+  rodando, acompanhando seus projetos) — saia pelo menu da bandeja.
+
+**Iniciar no login** é um opt-in separado e independente em **Configurações**.
 
 ## Menu da aplicação
 

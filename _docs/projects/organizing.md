@@ -28,6 +28,12 @@ Star a project to pin it to the top (with the *favorites-first* sort) and to
 surface it in the desktop [quick-open menus]({{ '/docs/desktop/quick-open/' | relative_url }})
 (tray / dock / jump list).
 
+## Groups, ordering & bulk actions
+
+Gather projects into named **folders**, drag to arrange them, and act on several at
+once with the bulk bar (including **select all**). The dashboard layout is saved and
+persists. See [Groups & folders]({{ '/docs/projects/groups/' | relative_url }}).
+
 ## Notes
 
 Under **Details → Notas**, jot quick notes per project and pin the important ones.
