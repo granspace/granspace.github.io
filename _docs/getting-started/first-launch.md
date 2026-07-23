@@ -23,7 +23,7 @@ Granspace scans these roots (one level deep) for anything that looks like a proj
 
 <figure class="shot">
   <img src="{{ '/images/first-launch-settings.png' | relative_url }}" alt="Settings — scan folders" loading="lazy" />
-  <figcaption>Settings → Folders, where you add the roots to scan. (screenshot pending)</figcaption>
+  <figcaption>Settings → Folders, where you add the roots to scan.</figcaption>
 </figure>
 
 ## 2. Discover projects

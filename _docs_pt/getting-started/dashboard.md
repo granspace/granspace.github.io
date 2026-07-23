@@ -9,7 +9,7 @@ filtros e ações rápidas.
 
 <figure class="shot">
   <img src="{{ '/images/dashboard-tour.png' | relative_url }}" alt="Painel com a barra superior, filtros e cards de projeto" loading="lazy" />
-  <figcaption>O painel. (screenshot pendente)</figcaption>
+  <figcaption>O painel.</figcaption>
 </figure>
 
 ## Barra superior

@@ -9,7 +9,7 @@ Gerencie extensões pelo menu **⋯ → Extensões** da barra superior (ou, no d
 
 <figure class="shot">
   <img src="{{ '/images/extensions-modal.png' | relative_url }}" alt="O modal de Extensões" loading="lazy" />
-  <figcaption>O gerenciador de Extensões. (screenshot pendente)</figcaption>
+  <figcaption>O gerenciador de Extensões.</figcaption>
 </figure>
 
 ## Do registro oficial

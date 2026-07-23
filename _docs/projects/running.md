@@ -22,7 +22,7 @@ While a project runs, its output is captured with ANSI colors preserved. Open
 
 <figure class="shot">
   <img src="{{ '/images/running-logs.png' | relative_url }}" alt="Live colored logs for a running project" loading="lazy" />
-  <figcaption>Live logs with colors preserved. (screenshot pending)</figcaption>
+  <figcaption>Live logs with colors preserved.</figcaption>
 </figure>
 
 ## Port conflicts

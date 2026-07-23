@@ -4,41 +4,119 @@ lang: pt-br
 permalink: /pt-br/
 description: Granspace é um gerenciador local dos projetos de desenvolvimento espalhados pela sua máquina — descobre, organiza, roda e acompanha.
 ---
+
 <header class="wrap hero">
-  <img class="hero-logo" src="{{ '/images/logo.svg' | relative_url }}" alt="" aria-hidden="true" />
+  <img
+    class="hero-logo"
+    src="{{ '/images/logo.svg' | relative_url }}"
+    alt=""
+    aria-hidden="true"
+  />
   <h1>Granspace</h1>
-  <p class="tag">Gerencie os projetos de desenvolvimento espalhados pela sua máquina — descubra, organize, rode e acompanhe, tudo num só lugar.</p>
+  <p class="tag">
+    Gerencie os projetos de desenvolvimento espalhados pela sua máquina —
+    descubra, organize, rode e acompanhe, tudo num só lugar.
+  </p>
   <div class="cta-row">
     <a class="btn" href="{{ '/pt-br/download/' | relative_url }}">↓ Baixar</a>
-    <a class="btn secondary" href="{{ '/pt-br/docs/' | relative_url }}">Ler a documentação</a>
+    <a class="btn secondary" href="{{ '/pt-br/docs/' | relative_url }}"
+      >Ler a documentação</a
+    >
   </div>
-  <p class="note">Um <strong>app desktop</strong> com o painel embutido. O Granspace é local-first — seus projetos e secrets ficam na sua máquina.</p>
+  <p class="note">
+    Um <strong>app desktop</strong> com o painel embutido. O Granspace é
+    local-first — seus projetos e secrets ficam na sua máquina.
+  </p>
 </header>
 
 <main class="wrap">
   <figure class="shot">
-    <img src="{{ '/images/home-dashboard.png' | relative_url }}" alt="O painel do Granspace listando projetos" loading="lazy" />
-    <figcaption>O painel — todos os seus projetos num relance. (screenshot pendente)</figcaption>
+    <img
+      src="{{ '/images/home-dashboard.png' | relative_url }}"
+      alt="O painel do Granspace listando projetos"
+      loading="lazy"
+    />
+    <figcaption>O painel — todos os seus projetos num relance.</figcaption>
   </figure>
 
   <section class="home-section">
     <h2>O que ele faz</h2>
     <div class="grid">
-      <div class="card"><div class="ico">{% include icon.html name="search" %}</div><h3>Descobrir e organizar</h3><p>Encontra seus projetos em várias pastas e mantém tudo organizado (etapa, propósito, tags, notas).</p></div>
-      <div class="card"><div class="ico">{% include icon.html name="play" %}</div><h3>Rodar e acompanhar</h3><p>Inicie/pare projetos e comandos nomeados com logs coloridos ao vivo. Detecção de conflito de porta embutida.</p></div>
-      <div class="card"><div class="ico">{% include icon.html name="board" %}</div><h3>Kanban e notas</h3><p>Um quadro configurável por projeto, com checklists, prioridades, prazos e notas fixadas.</p></div>
-      <div class="card"><div class="ico">{% include icon.html name="git-branch" %}</div><h3>Saúde do git</h3><p>Veja o estado de sincronização de relance e rode pull / push / commit / stash pela interface.</p></div>
-      <div class="card"><div class="ico">{% include icon.html name="key" %}</div><h3>Secrets criptografados</h3><p>Variáveis de ambiente por projeto, com secrets criptografados atrás de uma senha-mestra (com chave de recuperação).</p></div>
-      <div class="card"><div class="ico">{% include icon.html name="puzzle" %}</div><h3>Extensões</h3><p>Suporte declarativo e instalável para mais linguagens/ferramentas — Node, PHP, Python, Go, Rust, Docker e mais.</p></div>
+      <div class="card">
+        <div class="ico">{% include icon.html name="search" %}</div>
+        <h3>Descobrir e organizar</h3>
+        <p>
+          Encontra seus projetos em várias pastas e mantém tudo organizado
+          (etapa, propósito, tags, notas).
+        </p>
+      </div>
+      <div class="card">
+        <div class="ico">{% include icon.html name="play" %}</div>
+        <h3>Rodar e acompanhar</h3>
+        <p>
+          Inicie/pare projetos e comandos nomeados com logs coloridos ao vivo.
+          Detecção de conflito de porta embutida.
+        </p>
+      </div>
+      <div class="card">
+        <div class="ico">{% include icon.html name="board" %}</div>
+        <h3>Kanban e notas</h3>
+        <p>
+          Um quadro configurável por projeto, com checklists, prioridades,
+          prazos e notas fixadas.
+        </p>
+      </div>
+      <div class="card">
+        <div class="ico">{% include icon.html name="git-branch" %}</div>
+        <h3>Saúde do git</h3>
+        <p>
+          Veja o estado de sincronização de relance e rode pull / push / commit
+          / stash pela interface.
+        </p>
+      </div>
+      <div class="card">
+        <div class="ico">{% include icon.html name="key" %}</div>
+        <h3>Secrets criptografados</h3>
+        <p>
+          Variáveis de ambiente por projeto, com secrets criptografados atrás de
+          uma senha-mestra (com chave de recuperação).
+        </p>
+      </div>
+      <div class="card">
+        <div class="ico">{% include icon.html name="puzzle" %}</div>
+        <h3>Extensões</h3>
+        <p>
+          Suporte declarativo e instalável para mais linguagens/ferramentas —
+          Node, PHP, Python, Go, Rust, Docker e mais.
+        </p>
+      </div>
     </div>
   </section>
 
   <section class="home-section">
     <h2>Baixar o Granspace</h2>
     <div class="dl-grid">
-      <a href="{{ '/pt-br/download/' | relative_url }}"><div class="card"><div class="ico">{% include icon.html name="linux" %}</div><h3>Linux</h3><p>AppImage (auto-atualizável) ou .deb.</p></div></a>
-      <a href="{{ '/pt-br/download/' | relative_url }}"><div class="card"><div class="ico">{% include icon.html name="windows" %}</div><h3>Windows</h3><p>Instalador (.exe).</p></div></a>
-      <a href="{{ '/pt-br/download/' | relative_url }}"><div class="card"><div class="ico">{% include icon.html name="apple" %}</div><h3>macOS</h3><p>Imagem de disco (.dmg).</p></div></a>
+      <a href="{{ '/pt-br/download/' | relative_url }}"
+        ><div class="card">
+          <div class="ico">{% include icon.html name="linux" %}</div>
+          <h3>Linux</h3>
+          <p>AppImage (auto-atualizável) ou .deb.</p>
+        </div></a
+      >
+      <a href="{{ '/pt-br/download/' | relative_url }}"
+        ><div class="card">
+          <div class="ico">{% include icon.html name="windows" %}</div>
+          <h3>Windows</h3>
+          <p>Instalador (.exe).</p>
+        </div></a
+      >
+      <a href="{{ '/pt-br/download/' | relative_url }}"
+        ><div class="card">
+          <div class="ico">{% include icon.html name="apple" %}</div>
+          <h3>macOS</h3>
+          <p>Imagem de disco (.dmg).</p>
+        </div></a
+      >
     </div>
   </section>
 
@@ -46,9 +124,19 @@ description: Granspace é um gerenciador local dos projetos de desenvolvimento e
     <h2>Primeiros passos</h2>
     <ol class="steps">
       <li>Baixe e abra o Granspace para o seu sistema.</li>
-      <li>No primeiro início, aponte para a pasta onde seus projetos ficam — ele os encontra automaticamente.</li>
-      <li>Organize, rode e acompanhe. Adicione um <code>granspace.json</code> a um projeto para ele se configurar ao ser adicionado.</li>
+      <li>
+        No primeiro início, aponte para a pasta onde seus projetos ficam — ele
+        os encontra automaticamente.
+      </li>
+      <li>
+        Organize, rode e acompanhe. Adicione um <code>granspace.json</code> a um
+        projeto para ele se configurar ao ser adicionado.
+      </li>
     </ol>
-    <p><a href="{{ '/pt-br/docs/getting-started/first-launch/' | relative_url }}">Guia completo de primeiros passos →</a></p>
+    <p>
+      <a href="{{ '/pt-br/docs/getting-started/first-launch/' | relative_url }}"
+        >Guia completo de primeiros passos →</a
+      >
+    </p>
   </section>
 </main>

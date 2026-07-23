@@ -36,5 +36,5 @@ logs ao vivo.
 
 <figure class="shot">
   <img src="{{ '/images/docker-panel.png' | relative_url }}" alt="O painel de containers Docker" loading="lazy" />
-  <figcaption>O painel Containers. (screenshot pendente)</figcaption>
+  <figcaption>O painel Containers.</figcaption>
 </figure>

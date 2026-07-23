@@ -15,7 +15,7 @@ also feed the desktop tray/badge.
 
 ## Refresh (fetch)
 
-**Refresh git** runs a real `git fetch` (network) so *ahead/behind* counts are
+**Refresh git** runs a real `git fetch` (network) so _ahead/behind_ counts are
 accurate, then re-reads status. The dashboard's **Refresh git** does this for all
 projects at once; a project's **Details → Git** tab does it for one.
 
@@ -31,7 +31,7 @@ From **Details → Git** you can:
 
 <figure class="shot">
   <img src="{{ '/images/git-tab.png' | relative_url }}" alt="The Git tab with sync state and actions" loading="lazy" />
-  <figcaption>The Git tab. (screenshot pending)</figcaption>
+  <figcaption>The Git tab.</figcaption>
 </figure>
 
 ## Open the remote

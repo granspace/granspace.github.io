@@ -9,7 +9,7 @@ Every project has its own kanban board and a notes list.
 ## The board
 
 Open **Details → Kanban → View all tasks** for the full board. It has columns
-(defaults: *A fazer / Fazendo / Feito*) that you can rename, add and remove.
+(defaults: _A fazer / Fazendo / Feito_) that you can rename, add and remove.
 
 - **Add a task** by typing in a column's input.
 - **Drag** a task between columns to move it.
@@ -17,7 +17,7 @@ Open **Details → Kanban → View all tasks** for the full board. It has column
 
 <figure class="shot">
   <img src="{{ '/images/kanban-board.png' | relative_url }}" alt="The kanban board with columns and task cards" loading="lazy" />
-  <figcaption>The kanban board. (screenshot pending)</figcaption>
+  <figcaption>The kanban board.</figcaption>
 </figure>
 
 ## Task details

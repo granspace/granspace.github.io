@@ -12,7 +12,7 @@ que roda no seu computador.
 
 <figure class="shot">
   <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="Visão geral do painel do Granspace" loading="lazy" />
-  <figcaption>O painel listando os projetos descobertos. (screenshot pendente)</figcaption>
+  <figcaption>O painel listando os projetos descobertos.</figcaption>
 </figure>
 
 ## O que você ganha

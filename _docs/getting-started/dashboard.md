@@ -9,7 +9,7 @@ filters and quick actions.
 
 <figure class="shot">
   <img src="{{ '/images/dashboard-tour.png' | relative_url }}" alt="Dashboard with the top bar, filters and project cards" loading="lazy" />
-  <figcaption>The dashboard. (screenshot pending)</figcaption>
+  <figcaption>The dashboard.</figcaption>
 </figure>
 
 ## Top bar

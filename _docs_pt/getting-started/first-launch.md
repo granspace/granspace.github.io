@@ -23,7 +23,7 @@ arquivo compose e assim por diante (a detecção é dirigida por
 
 <figure class="shot">
   <img src="{{ '/images/first-launch-settings.png' | relative_url }}" alt="Configurações — pastas para escanear" loading="lazy" />
-  <figcaption>Configurações → Pastas, onde você adiciona as raízes a escanear. (screenshot pendente)</figcaption>
+  <figcaption>Configurações → Pastas, onde você adiciona as raízes a escanear.</figcaption>
 </figure>
 
 ## 2. Descubra projetos

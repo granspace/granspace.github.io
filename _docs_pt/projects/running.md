@@ -22,7 +22,7 @@ Enquanto um projeto roda, a saída é capturada com cores ANSI preservadas. Abra
 
 <figure class="shot">
   <img src="{{ '/images/running-logs.png' | relative_url }}" alt="Logs coloridos ao vivo de um projeto rodando" loading="lazy" />
-  <figcaption>Logs ao vivo com cores preservadas. (screenshot pendente)</figcaption>
+  <figcaption>Logs ao vivo com cores preservadas.</figcaption>
 </figure>
 
 ## Conflitos de porta

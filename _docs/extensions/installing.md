@@ -9,7 +9,7 @@ Manage extensions from the top-bar **⋯ → Extensions** menu (or, on desktop,
 
 <figure class="shot">
   <img src="{{ '/images/extensions-modal.png' | relative_url }}" alt="The Extensions modal" loading="lazy" />
-  <figcaption>The Extensions manager. (screenshot pending)</figcaption>
+  <figcaption>The Extensions manager.</figcaption>
 </figure>
 
 ## From the official registry

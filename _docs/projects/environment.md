@@ -39,5 +39,5 @@ If the `.env` already exists, Granspace asks before overwriting.
 
 <figure class="shot">
   <img src="{{ '/images/env-panel.png' | relative_url }}" alt="The environment variables panel" loading="lazy" />
-  <figcaption>The environment panel with a secret and a published var. (screenshot pending)</figcaption>
+  <figcaption>The environment panel with a secret and a published var.</figcaption>
 </figure>

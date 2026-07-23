@@ -12,7 +12,7 @@ computer.
 
 <figure class="shot">
   <img src="{{ '/images/intro-overview.png' | relative_url }}" alt="Granspace dashboard overview" loading="lazy" />
-  <figcaption>The dashboard listing discovered projects. (screenshot pending)</figcaption>
+  <figcaption>The dashboard listing discovered projects.</figcaption>
 </figure>
 
 ## What you get

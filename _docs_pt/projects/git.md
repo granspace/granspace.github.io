@@ -16,7 +16,7 @@ pedem atenção também alimentam a bandeja/badge do desktop.
 ## Atualizar (fetch)
 
 **Atualizar git** roda um `git fetch` de verdade (rede) para os contadores de
-*à frente/atrás* ficarem exatos, e então relê o status. O **Atualizar git** do
+_à frente/atrás_ ficarem exatos, e então relê o status. O **Atualizar git** do
 painel faz isso para todos os projetos de uma vez; a aba **Detalhes → Git** faz
 para um.
 
@@ -32,7 +32,7 @@ Em **Detalhes → Git** você pode:
 
 <figure class="shot">
   <img src="{{ '/images/git-tab.png' | relative_url }}" alt="A aba Git com estado de sincronização e ações" loading="lazy" />
-  <figcaption>A aba Git. (screenshot pendente)</figcaption>
+  <figcaption>A aba Git.</figcaption>
 </figure>
 
 ## Abrir o remote

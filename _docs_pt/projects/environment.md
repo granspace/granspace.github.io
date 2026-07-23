@@ -38,5 +38,5 @@ Se o `.env` já existe, o Granspace pergunta antes de sobrescrever.
 
 <figure class="shot">
   <img src="{{ '/images/env-panel.png' | relative_url }}" alt="O painel de variáveis de ambiente" loading="lazy" />
-  <figcaption>O painel de ambiente com uma secreta e uma var publicada. (screenshot pendente)</figcaption>
+  <figcaption>O painel de ambiente com uma secreta e uma var publicada.</figcaption>
 </figure>
