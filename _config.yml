@@ -18,7 +18,9 @@ repos:
 # Donation methods for the /donate/ page. Fill in only what you use — each method
 # renders only when its value is set here (empty string = hidden on the page).
 donate:
-  pix: ""              # PIX key (email, phone, CPF, random key, or a full BR Code payload)
+  pix: ""              # PIX key (email, phone, CPF, or random key) — a scannable BR Code QR is generated from it
+  pix_name: ""         # recipient name shown in banking apps (max 25 chars); defaults to BENEFICIARIO
+  pix_city: ""         # recipient city shown in banking apps (max 15 chars); defaults to BRASIL
   buymeacoffee: ""     # full URL, e.g. https://www.buymeacoffee.com/yourname
   bitcoin: ""          # BTC receiving address
   github_sponsors: ""  # GitHub username, e.g. yourname
