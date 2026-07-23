@@ -4,10 +4,13 @@ en:
   nav_docs: Docs
   nav_download: Download
   nav_extensions: Extensions
-  footer_tagline: "Granspace — runs entirely on your machine (loopback only)."
+  nav_donate: Donate
+  footer_tagline: "Granspace is local-first — your projects and secrets stay on your machine."
   footer_docs: Docs
   footer_download: Download
   footer_extensions: Extensions registry
+  footer_donate: Donate
+  footer_feedback: Feedback
   sidebar_toggle: Contents
   lang_name: English
   tagline: "Manage the dev projects scattered across your machine"
@@ -16,10 +19,13 @@ pt-br:
   nav_docs: Docs
   nav_download: Download
   nav_extensions: Extensões
-  footer_tagline: "Granspace — roda inteiramente na sua máquina (somente loopback)."
+  nav_donate: Doar
+  footer_tagline: "O Granspace é local-first — seus projetos e secrets ficam na sua máquina."
   footer_docs: Docs
   footer_download: Download
   footer_extensions: Registro de extensões
+  footer_donate: Doar
+  footer_feedback: Feedback
   sidebar_toggle: Conteúdo
   lang_name: Português
   tagline: "Gerencie os projetos de desenvolvimento espalhados pela sua máquina"

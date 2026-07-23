@@ -1,4 +1,5 @@
 ---
+published: false
 title: Configurando um cliente
 section: MCP (agentes de IA)
 description: Como um cliente MCP vai conectar ao servidor MCP do Granspace.

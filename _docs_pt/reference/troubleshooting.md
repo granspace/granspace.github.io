@@ -40,6 +40,18 @@ Ele só aparece para projetos **compose**, e o Docker precisa estar instalado e 
 Valores secretos exigem o cofre **destrancado** com sua senha-mestra. Veja
 [Secrets criptografados]({{ '/pt-br/docs/security/secrets/' | relative_url }}).
 
+## O app parece já estar aberto, ou um novo launch não faz nada
+
+O Granspace roda em **instância única**. Se **Manter rodando na bandeja** estiver
+ligado, fechar a janela o deixa rodando na bandeja — abra pelo ícone da bandeja, ou
+**Saia** pelo menu da bandeja para encerrar de vez. Com a bandeja desligada, fechar a
+janela encerra. Veja [Bandeja e menus]({{ '/pt-br/docs/desktop/tray-menus/' | relative_url }}).
+
+## Outra coisa está usando a porta dele
+
+O app desktop escolhe uma **porta livre automaticamente**, então outro serviço numa
+porta qualquer não impede o app de iniciar.
+
 ## Movendo o banco de dados
 
 Aponte o Granspace para outro arquivo de banco com a variável de ambiente `DB_PATH`.

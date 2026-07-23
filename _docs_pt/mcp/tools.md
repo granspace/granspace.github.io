@@ -1,4 +1,5 @@
 ---
+published: false
 title: Referência de ferramentas
 section: MCP (agentes de IA)
 description: Os tipos de ferramenta que o Granspace expõe via MCP.

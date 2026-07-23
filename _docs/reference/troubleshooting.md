@@ -39,6 +39,18 @@ It only shows for **compose** projects, and Docker must be installed and on your
 Secret values require the vault to be **unlocked** with your master password. See
 [Encrypted secrets]({{ '/docs/security/secrets/' | relative_url }}).
 
+## The app seems already open, or a new launch does nothing
+
+Granspace runs a **single instance**. If **Keep running in the tray** is on, closing
+the window leaves it running in the tray — open it from the tray icon, or **Quit**
+from the tray menu to fully exit. With the tray off, closing the window quits. See
+[Tray & menus]({{ '/docs/desktop/tray-menus/' | relative_url }}).
+
+## Something else is using its port
+
+The desktop app picks a **free port automatically**, so another service on a given
+port won't stop it from starting.
+
 ## Moving the database
 
 Point Granspace at a different database file with the `DB_PATH` environment variable.

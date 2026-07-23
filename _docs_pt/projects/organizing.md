@@ -30,6 +30,12 @@ Favorite um projeto para fixá-lo no topo (com a ordenação *favoritos primeiro
 para trazê-lo aos [menus de abertura rápida]({{ '/pt-br/docs/desktop/quick-open/' | relative_url }})
 do desktop (bandeja / dock / jump list).
 
+## Grupos, ordenação e ações em massa
+
+Junte projetos em **pastas** com nome, arraste para organizá-los e aja sobre vários
+de uma vez com a barra de ações em massa (incluindo **selecionar tudo**). O layout do
+painel é salvo e persiste. Veja [Grupos e pastas]({{ '/pt-br/docs/projects/groups/' | relative_url }}).
+
 ## Notas
 
 Em **Detalhes → Notas**, anote lembretes rápidos por projeto e fixe os

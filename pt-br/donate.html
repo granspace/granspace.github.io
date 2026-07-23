@@ -1,0 +1,115 @@
+---
+layout: page
+title: Doar
+permalink: /pt-br/donate/
+lang: pt-br
+description: Apoie o desenvolvimento do Granspace com uma doação única ou recorrente.
+---
+<p class="tag muted">O Granspace é feito com carinho e distribuído de graça. Se ele te economiza tempo, uma doação ajuda a manter o projeto — obrigado. Escolha o método que preferir.</p>
+
+{% assign d = site.donate %}
+
+<div class="donate-grid" style="margin-top:1.5rem">
+  {% if d.pix and d.pix != "" %}
+  <section class="card donate-card">
+    <h3>💠 PIX</h3>
+    <p>Escaneie o QR code no app do seu banco, ou copie a chave.</p>
+    <div class="qr" data-qr="pix" data-pix-key="{{ d.pix }}" data-pix-name="{{ d.pix_name }}" data-pix-city="{{ d.pix_city }}"></div>
+    <div class="copy-field">
+      <code>{{ d.pix }}</code>
+      <button class="btn copy-btn" type="button" data-copy="{{ d.pix }}">Copiar</button>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if d.buymeacoffee and d.buymeacoffee != "" %}
+  <section class="card donate-card">
+    <h3>☕ Buy Me a Coffee</h3>
+    <p>Um agrado rápido, de uma vez.</p>
+    <a class="btn" href="{{ d.buymeacoffee }}" target="_blank" rel="noopener noreferrer">Pagar um café →</a>
+  </section>
+  {% endif %}
+
+  {% if d.bitcoin and d.bitcoin != "" %}
+  <section class="card donate-card">
+    <h3>₿ Bitcoin</h3>
+    <p>Escaneie o QR code, ou copie o endereço.</p>
+    <div class="qr" data-qr="btc" data-btc="{{ d.bitcoin }}"></div>
+    <div class="copy-field">
+      <code>{{ d.bitcoin }}</code>
+      <button class="btn copy-btn" type="button" data-copy="{{ d.bitcoin }}">Copiar</button>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if d.github_sponsors and d.github_sponsors != "" %}
+  <section class="card donate-card">
+    <h3>♥ GitHub Sponsors</h3>
+    <p>Recorrente ou único, pelo GitHub.</p>
+    <a class="btn" href="https://github.com/sponsors/{{ d.github_sponsors }}" target="_blank" rel="noopener noreferrer">Apoiar no GitHub →</a>
+  </section>
+  {% endif %}
+</div>
+
+{% unless d and d.pix != "" or d.buymeacoffee != "" or d.bitcoin != "" or d.github_sponsors != "" %}
+<div class="callout">Os métodos de doação ainda não foram configurados — volte em breve.</div>
+{% endunless %}
+
+<style>
+  .donate-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .donate-card h3 { margin-top: 0; }
+  .qr { display: none; width: 180px; margin: 0 auto 1rem; padding: 10px; border-radius: 10px; background: #fff; }
+  .qr svg { display: block; width: 100%; height: auto; }
+  .copy-field { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+  .copy-field code { flex: 1 1 auto; overflow-wrap: anywhere; padding: .4rem .6rem; border-radius: 6px; background: rgba(127,127,127,.12); }
+</style>
+<script src="{{ '/assets/js/qrcode.min.js' | relative_url }}"></script>
+<script>
+  // PIX BR Code (EMV Merchant-Presented Mode) — TLV fields + CRC16-CCITT.
+  function tlv(id, v) { return id + String(v.length).padStart(2, '0') + v; }
+  function crc16(s) {
+    var c = 0xffff;
+    for (var i = 0; i < s.length; i++) {
+      c ^= s.charCodeAt(i) << 8;
+      for (var j = 0; j < 8; j++) { c = (c & 0x8000) ? ((c << 1) ^ 0x1021) : (c << 1); }
+    }
+    return (c & 0xffff).toString(16).toUpperCase().padStart(4, '0');
+  }
+  function pixPayload(key, name, city) {
+    name = (name || 'BENEFICIARIO').slice(0, 25).toUpperCase();
+    city = (city || 'BRASIL').slice(0, 15).toUpperCase();
+    var merchant = tlv('26', tlv('00', 'BR.GOV.BCB.PIX') + tlv('01', key));
+    var extra = tlv('62', tlv('05', '***'));
+    var body = [
+      tlv('00', '01'), tlv('01', '11'), merchant,
+      tlv('52', '0000'), tlv('53', '986'), tlv('58', 'BR'),
+      tlv('59', name), tlv('60', city), extra, '6304'
+    ].join('');
+    return body + crc16(body);
+  }
+  function drawQR(el, text) {
+    if (typeof qrcode !== 'function') return;
+    var qr = qrcode(0, 'M');
+    qr.addData(text);
+    qr.make();
+    el.innerHTML = qr.createSvgTag({ scalable: true, margin: 0 });
+    el.style.display = 'block';
+  }
+  document.querySelectorAll('.qr').forEach(function (el) {
+    var kind = el.getAttribute('data-qr');
+    if (kind === 'pix') {
+      drawQR(el, pixPayload(el.getAttribute('data-pix-key'), el.getAttribute('data-pix-name'), el.getAttribute('data-pix-city')));
+    } else if (kind === 'btc') {
+      drawQR(el, 'bitcoin:' + el.getAttribute('data-btc'));
+    }
+  });
+  document.querySelectorAll('.copy-btn').forEach(function (b) {
+    b.addEventListener('click', function () {
+      navigator.clipboard.writeText(b.getAttribute('data-copy')).then(function () {
+        var prev = b.textContent;
+        b.textContent = 'Copiado!';
+        setTimeout(function () { b.textContent = prev; }, 1500);
+      });
+    });
+  });
+</script>

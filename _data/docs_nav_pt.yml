@@ -18,10 +18,16 @@
   items:
     - title: Organizando
       url: /pt-br/docs/projects/organizing/
+    - title: Grupos e pastas
+      url: /pt-br/docs/projects/groups/
+      new: true
     - title: Rodar e logs
       url: /pt-br/docs/projects/running/
     - title: Comandos
       url: /pt-br/docs/projects/commands/
+    - title: Instalar dependências
+      url: /pt-br/docs/projects/dependencies/
+      new: true
     - title: Git
       url: /pt-br/docs/projects/git/
     - title: Ambiente e secrets
@@ -50,17 +56,8 @@
       url: /pt-br/docs/security/secrets/
     - title: Recuperação
       url: /pt-br/docs/security/recovery/
-    - title: Local por design
+    - title: Local-first e privado
       url: /pt-br/docs/security/local-only/
-
-- section: MCP (agentes de IA)
-  items:
-    - title: Visão geral
-      url: /pt-br/docs/mcp/overview/
-    - title: Configurando um cliente
-      url: /pt-br/docs/mcp/configuration/
-    - title: Referência de ferramentas
-      url: /pt-br/docs/mcp/tools/
 
 - section: App desktop
   items:
@@ -84,3 +81,5 @@
       url: /pt-br/docs/reference/troubleshooting/
     - title: FAQ
       url: /pt-br/docs/reference/faq/
+    - title: Feedback
+      url: /pt-br/docs/reference/feedback/

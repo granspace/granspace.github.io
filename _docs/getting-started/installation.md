@@ -8,6 +8,10 @@ Granspace ships as a desktop app. Grab your platform from the
 [Download page]({{ '/download/' | relative_url }}) (all builds live on the latest
 GitHub release).
 
+Granspace is self-contained: it uses the SQLite database built into its own runtime,
+so there's **no separate database to install** and no native modules to compile — it
+just runs.
+
 ## Requirements
 
 - **git** on your `PATH` (Granspace reads and runs git for your projects).

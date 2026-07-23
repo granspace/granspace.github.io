@@ -8,14 +8,20 @@ The desktop build wraps the dashboard in a native shell with a few extras.
 
 ## System tray
 
+The tray is **opt-in**. Enable **Keep running in the tray** in **Settings** and
 Granspace lives in the tray with a label showing how many projects are running and
 how many need attention. The tray menu offers **Show Granspace**, **Discover
 projects**, **Refresh all git**, quick-open for your
 [projects]({{ '/docs/desktop/quick-open/' | relative_url }}), **Check for
 updates**, and **Quit**.
 
-Closing the window **hides to tray** (the backend keeps running); quitting is
-explicit.
+### Closing behavior
+
+- **Tray off (default):** closing the window **quits** Granspace.
+- **Tray on:** closing the window **hides it to the tray** (the backend keeps
+  running, watching your projects) — quit from the tray menu.
+
+**Start at login** is a separate, independent opt-in in **Settings**.
 
 ## Application menu
 

@@ -18,10 +18,16 @@
   items:
     - title: Organizing
       url: /docs/projects/organizing/
+    - title: Groups & folders
+      url: /docs/projects/groups/
+      new: true
     - title: Running & logs
       url: /docs/projects/running/
     - title: Commands
       url: /docs/projects/commands/
+    - title: Installing dependencies
+      url: /docs/projects/dependencies/
+      new: true
     - title: Git
       url: /docs/projects/git/
     - title: Environment & secrets
@@ -50,17 +56,8 @@
       url: /docs/security/secrets/
     - title: Recovery
       url: /docs/security/recovery/
-    - title: Local-only by design
+    - title: Local-first & private
       url: /docs/security/local-only/
-
-- section: MCP (AI agents)
-  items:
-    - title: Overview
-      url: /docs/mcp/overview/
-    - title: Configuring a client
-      url: /docs/mcp/configuration/
-    - title: Tools reference
-      url: /docs/mcp/tools/
 
 - section: Desktop app
   items:
@@ -84,3 +81,5 @@
       url: /docs/reference/troubleshooting/
     - title: FAQ
       url: /docs/reference/faq/
+    - title: Feedback
+      url: /docs/reference/feedback/
