@@ -5,9 +5,9 @@ project manager). The Granspace source code is private and separate; only these
 public bits live here.
 
 - **Site** — presentation, documentation and download pages, served via **GitHub
-  Pages** at <https://granspace.github.io/site>.
+  Pages** at <https://granspace.github.io>.
 - **Downloads** — the installable builds (AppImage, .deb, Windows, macOS) live in
-  this repo's [**Releases**](https://github.com/granspace/site/releases).
+  this repo's [**Releases**](https://github.com/granspace/granspace.github.io/releases).
 - **Auto-update feed** — the desktop app's updater reads the same Releases
   (electron-updater metadata) to check for and download new versions.
 
@@ -34,7 +34,7 @@ images/                screenshots (see IMAGES.md)
 1. Create `_docs/<section>/<topic>.md` with front matter (`title`, `section`).
 2. Add its entry to `_data/docs_nav.yml` (this drives the sidebar and order).
 
-Internal links must use `relative_url` (the site has a `/site` base path):
+Internal links must use `relative_url`:
 `[x]({% raw %}{{ '/docs/...' | relative_url }}{% endraw %})`.
 
 ### Screenshots

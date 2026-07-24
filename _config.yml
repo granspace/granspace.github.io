@@ -7,12 +7,11 @@ description: >-
 # GitHub Pages project site. Every internal link must use `relative_url` so it
 # respects this base path.
 url: https://granspace.github.io
-baseurl: /site
 
 # External links reused across the site (kept in one place).
 repos:
   extensions: https://github.com/granspace/extensions
-  releases: https://github.com/granspace/site/releases/latest
+  releases: https://github.com/granspace/granspace.github.io/releases/latest
   feedback: https://github.com/granspace/feedback
 
 # Donation methods for the /donate/ page. Fill in only what you use — each method
