@@ -12,6 +12,7 @@ en:
   footer_donate: Donate
   footer_feedback: Feedback
   sidebar_toggle: Contents
+  nav_menu: Menu
   lang_name: English
   tagline: "Manage the dev projects scattered across your machine"
   description: "Granspace is a local manager for the dev projects on your machine: discover, organize, run and track them — web dashboard, desktop app and MCP."
@@ -27,6 +28,7 @@ pt-br:
   footer_donate: Doar
   footer_feedback: Feedback
   sidebar_toggle: Conteúdo
+  nav_menu: Menu
   lang_name: Português
   tagline: "Gerencie os projetos de desenvolvimento espalhados pela sua máquina"
   description: "Granspace é um gerenciador local dos projetos de desenvolvimento na sua máquina: descubra, organize, rode e acompanhe — painel web, app desktop e MCP."

@@ -77,6 +77,10 @@
   background: var(--surface-2);
 }
 
+.nav-toggle {
+  display: none;
+}
+
 .site-footer {
   margin-top: 3rem;
   padding: 2.2rem 0 3rem;
@@ -86,9 +90,53 @@
   text-align: center;
 }
 
-@media (max-width: 640px) {
+/* Mobile: collapse the nav behind a hamburger toggle (desktop layout is untouched above). */
+@media (max-width: 760px) {
+  .site-header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 58px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    border-color: var(--brand);
+  }
   .site-nav {
-    gap: 0.8rem;
-    font-size: 0.92rem;
+    display: none;
+    order: 3;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin-top: 0.8rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--border);
+  }
+  .nav-toggle-cb:checked ~ .site-nav {
+    display: flex;
+  }
+  .site-nav a {
+    padding: 0.65rem 0.1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .lang-switch,
+  .theme-toggle {
+    margin-top: 0.7rem;
   }
 }
