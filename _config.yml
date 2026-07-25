@@ -17,11 +17,11 @@ repos:
 # Donation methods for the /donate/ page. Fill in only what you use — each method
 # renders only when its value is set here (empty string = hidden on the page).
 donate:
-  pix: ""              # PIX key (email, phone, CPF, or random key) — a scannable BR Code QR is generated from it
+  pix: "946234e7-d786-41ea-920b-3f2f310dba83" # PIX key (email, phone, CPF, or random key) — a scannable BR Code QR is generated from it
   pix_name: ""         # recipient name shown in banking apps (max 25 chars); defaults to BENEFICIARIO
   pix_city: ""         # recipient city shown in banking apps (max 15 chars); defaults to BRASIL
   buymeacoffee: ""     # full URL, e.g. https://www.buymeacoffee.com/yourname
-  bitcoin: ""          # BTC receiving address
+  bitcoin: "BC1QQWA9UVT05WJVHLZZX0KYF58QTH4P6UGU7HZW6H" # BTC receiving address
   github_sponsors: ""  # GitHub username, e.g. yourname
 
 # Docs are a collection: one Markdown file per topic, output as its own page.
