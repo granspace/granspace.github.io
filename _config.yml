@@ -44,6 +44,12 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
 
+# jekyll-sitemap ships with the github-pages gem; listing it here activates it
+# so sitemap.xml is generated automatically and stays in sync with the docs
+# collections as pages are added or removed.
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - README.md
   - IMAGES.md
